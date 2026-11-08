@@ -49,7 +49,7 @@ static int battery_sample(void *ctx) {
     int value=-1;int count=fscanf(f,"%d",&value);fclose(f);
     return count==1?value:-1;
 }
-static app_pet_preferences_t prefs={.volume=50,.brightness=100,.vibration=true,.sound=true,.wireless_ready=true};
+static app_pet_preferences_t prefs={.volume=50,.brightness=100,.vibration=true,.sound=true,.wireless_ready=true,.version="3.2.8"};
 static bool preferences(void *ctx,app_pet_preferences_t *out) { (void)ctx;*out=prefs;return true; }
 static bool action(void *ctx,app_pet_action_t action,unsigned value) {
     (void)ctx;

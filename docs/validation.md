@@ -1,42 +1,17 @@
-# Validation and installation status
+# 验证记录 / Validation
 
-## Completed
+## 2026-11-09：固件 3.2.8
 
-- Firmware 1.0.0 compiled for ESP32-S31 with the exact pinned ESP-IDF revision.
-- Final System Update package built and inspected by the official Mosaico CLI.
-  Package SHA-256: `07f0816bd4d4f5910dfc4755b31ab0dfe1f4f2d25a13a29216784eac014c5e2d`.
-  Contains partition table, main application and UI resource image; no Vibe Mode,
-  sysmeta, NVS or Core Dump image. Requires Vibe Mode >=0.2.0.
-- Mac companion reads real signed-in Codex allowance, reset timestamp, active
-  turn boundaries and explicit recent completion timestamps. Current desktop
-  tasks were observed through their local rollouts without global config changes.
-- Eight Python behavior tests passed: lifecycle vs notLoaded, completion while
-  another task runs, expiry, waiting-input correlation, stale/malformed tails,
-  weekly allowance, failure and manual stop semantics.
-- Shared native C UI compiled and ran in GSP simulator. Actual face tap and back
-  input, working/waiting/completed/failed/offline state changes, blink animation,
-  first-frame title and blue-marker visibility were exercised. Images are under
-  `design/simulator`; numbers/titles there are test data, not a physical device capture.
+- **目标设备**：ESP-Iris Mosaico，ESP32-S31，Device ID `4553502d4952495301001c2904d0a33a`，通过 Mac 的 USB Highspeed 连接。
+- **构建**：使用固定 ESP-IDF 修订 `7b9cc1ac79f865983f59bb8ff3ff43eb74ff1dbe` 构建 3.2.8。官方 `iris system-update` 重新生成包含应用、分区表和 GSP UI 资源的 `.irisfw` 包。
+- **写入**：`python mosaico.py iris system-update --project projects/codex_pet --device-id 4553502d4952495301001c2904d0a33a` 回报 `iris system-update: succeeded`，并回报目标固件与系统分区健康。未直接刷写或擦除整片闪存。
+- **设备读回**：更新前应用版本 3.2.7、Boot ID `14930927598924319032`；更新后同一 Device ID 回报应用版本 **3.2.8**、新的 Boot ID `12954969968245731427`、`firmware_mode=normal`、无 crash-loop 标记。
+- **界面截图**：[截图目录](screenshots)为 480 × 480 原生 GSP 模拟器生成。主屏、任务、语音、设置、语言切换、终端和 Wi-Fi 页面已重新截取，使用演示数据。截图不是实物照片，也不证明实机触控或联网状态。
 
-## Still pending: physical installation and acceptance
+## 仍需实物验收
 
-USB discovery sees `ESP-Iris Mosaico english_voice`, VID/PID 303A:4002,
-`/dev/cu.usbmodem101`. New tools cannot classify its CDC control/data role and
-reject it before the live handshake. This is compatible with an older interface,
-but no live firmware version, Device ID or Boot ID has been established.
+- 在实物屏幕上切换中文与 English，重启后确认语言保留；逐页检查文字是否截断。
+- 在当前 Wi-Fi 上观察一次真实的 Mac 任务与额度同步、完成提醒和语音输入。
+- 若需支持更多电脑或路由器，还应分别在第二台 Mac 与另一种 Wi-Fi 环境中验证配对和自动重连。
 
-Official `recover --dry-run` explicitly requires manual ROM Download Mode:
-power off, hold Boot (left of USB-C), power on, release Boot after entry.
-The connected application is not ROM mode. There is no active write operation,
-and no firmware or device data has been written by this task.
-
-Next: detect ROM identity, apply the reviewed base through `mosaico.py recover`,
-verify live Vibe Mode identity/version/ABI, install the prepared application through
-`iris system-update`, then verify the same identity, new Boot ID, healthy state,
-real screen capture, actual Codex data updates, touch and reconnect behavior.
-Do not claim device completion from this build or the simulator alone.
-
-Logs:
-- Firmware build: vendor/esp-mosaico-vibe/projects/codex_pet/.codex-runs/idf-low-noise-build/20261101-235735-build-32117/raw.log
-- Final bundle/failed device connection: vendor/esp-mosaico-vibe/.codex-runs/mosaico/20261101T160304Z-system-update/raw.log
-- Recovery preflight: vendor/esp-mosaico-vibe/.codex-runs/mosaico/20261101T155429Z-recover/raw.log
+电脑检测到 USB 端口和模拟器运行通过，并不等同于上述真实使用场景已经验收。
