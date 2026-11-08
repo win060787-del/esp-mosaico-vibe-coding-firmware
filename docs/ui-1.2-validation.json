@@ -1,0 +1,27 @@
+{
+  "release": "1.2.0",
+  "status": "installed_healthy",
+  "server_updated": true,
+  "server_time_timezone": "Asia/Shanghai",
+  "server_time_live_verified": true,
+  "tests_passed": 15,
+  "native_ui_verified": [
+    "clock",
+    "task_running_icon",
+    "task_waiting_icon",
+    "blink",
+    "task_drawer",
+    "back",
+    "waiting",
+    "completed",
+    "failed",
+    "offline"
+  ],
+  "bundle": "codex-pet-1.2.0-wifi.irisfw",
+  "preview": "design/ui-1.2-simulator/preview.png",
+  "device_id": "4553502d4952495301001c2904d0a33a",
+  "boot_id": "2180670845626563755",
+  "firmware_sha256": "eb59383919174294392cddd90458fe760b140346531dc302daa65e19858455ff",
+  "wifi_connected": true,
+  "cloud_pulls_verified": 2
+}

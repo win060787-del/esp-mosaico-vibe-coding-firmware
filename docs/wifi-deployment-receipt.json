@@ -1,0 +1,26 @@
+{
+  "device_id": "4553502d4952495301001c2904d0a33a",
+  "hardware_mac": "1c:29:04:d0:a3:3a",
+  "app_version": "1.1.2",
+  "project_name": "codex_pet",
+  "boot_id_text": "7436944379409265115",
+  "firmware_sha256": "f86319bc0e2f7f236765bc484a1b9c042e46c557d7cc086f484537834037b149",
+  "firmware_mode": "normal",
+  "recovery_abi": 1,
+  "server_region": "ap-guangzhou",
+  "server_service": "codex-pet",
+  "transport": "Mac HTTPS PUT -> server -> device Wi-Fi HTTPS GET",
+  "scene_unchanged": true,
+  "animation_unchanged": true,
+  "tests_passed": 14,
+  "bundle": "dist/codex-pet-1.1.2-wifi.irisfw",
+  "physical_unplug_test": false,
+  "wifi_verification": {
+    "configured": true,
+    "connected": true,
+    "pulls": 5,
+    "last_ts": 1793556806,
+    "observed_at": 1793556829
+  },
+  "reconnection_verified": true
+}

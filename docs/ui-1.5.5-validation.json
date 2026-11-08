@@ -1,0 +1,25 @@
+{
+  "version": "1.5.5",
+  "healthy_update": true,
+  "selected_option": 3,
+  "name": "三音完成",
+  "pcm_sha256": "ad2f340a0b7f71f2c1df2a5c5db84358b0f2d0000daa1fc930d259e7e2c963a9",
+  "exact_audition_pcm_embedded": true,
+  "tests_passed": 23,
+  "notification": {
+    "armed": true,
+    "queued": 0,
+    "played": 1,
+    "self_tests": 1,
+    "dropped": 0,
+    "motor_error": 0,
+    "audio_error": 0
+  },
+  "network": {
+    "configured": true,
+    "connected": true,
+    "pulls": 16,
+    "last_ts": 1793632785
+  },
+  "subjective_sound": "Awaiting user observation"
+}

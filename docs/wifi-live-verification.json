@@ -1,0 +1,51 @@
+[
+  {
+    "configured": true,
+    "connected": false,
+    "pulls": 0,
+    "last_ts": 0,
+    "observed_at": 1793556727
+  },
+  {
+    "configured": true,
+    "connected": true,
+    "pulls": 1,
+    "last_ts": 1793556741,
+    "observed_at": 1793556744
+  },
+  {
+    "configured": true,
+    "connected": true,
+    "pulls": 2,
+    "last_ts": 1793556741,
+    "observed_at": 1793556761
+  },
+  {
+    "configured": true,
+    "connected": true,
+    "pulls": 2,
+    "last_ts": 1793556741,
+    "observed_at": 1793556778
+  },
+  {
+    "configured": true,
+    "connected": true,
+    "pulls": 3,
+    "last_ts": 1793556773,
+    "observed_at": 1793556795
+  },
+  {
+    "configured": true,
+    "connected": true,
+    "pulls": 4,
+    "last_ts": 1793556790,
+    "observed_at": 1793556812
+  },
+  {
+    "configured": true,
+    "connected": true,
+    "pulls": 5,
+    "last_ts": 1793556806,
+    "observed_at": 1793556829
+  }
+]

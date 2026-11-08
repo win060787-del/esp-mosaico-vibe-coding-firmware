@@ -1,0 +1,1 @@
+idf_component_register(SRCS "app_voice.c" INCLUDE_DIRS "include" REQUIRES app_pet app_notify PRIV_REQUIRES esp-mosaico-bsp esp_http_client nvs_flash esp_iris esp_timer esp_hw_support espressif__cjson freertos heap)

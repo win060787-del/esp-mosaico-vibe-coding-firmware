@@ -1,0 +1,22 @@
+{
+  "device_id": "4553502d4952495301001c2904d0a33a",
+  "hardware_mac": "1c:29:04:d0:a3:3a",
+  "normal_boot_id_before": "17526818937824610409",
+  "recovery_boot_id": "12290368026002640811",
+  "installed_boot_id": "15758752774204585539",
+  "recovery_version": "0.1.4",
+  "application": "codex_pet",
+  "application_version": "1.0.0",
+  "application_elf_sha256": "88e0de655e5323334bbc9888d516b0728dd997f0643830f9103215adb77df4d2",
+  "operation_id": "cd1e7ffa-219c-42df-81ce-d5391d41b1bf",
+  "status": "succeeded",
+  "verification": [
+    "same hardware identity after reboot",
+    "system-update target firmware and partitions healthy",
+    "Codex Pet ready in live device log",
+    "live Codex data delivered through successful RPC",
+    "user LaunchAgent running; error log empty"
+  ],
+  "physical_screen_inspected": false,
+  "bundle": "dist/codex-pet-1.0.0-recovery-0.1.irisfw"
+}

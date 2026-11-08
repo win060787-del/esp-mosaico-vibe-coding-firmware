@@ -1,0 +1,46 @@
+{
+  "before": {
+    "armed": true,
+    "queued": 0,
+    "played": 0,
+    "self_tests": 0,
+    "dropped": 0,
+    "motor_error": 0,
+    "audio_error": 0,
+    "stream_ms": 0,
+    "merged": 0,
+    "last_batch": 0,
+    "volume": 35,
+    "vibration": true
+  },
+  "after": {
+    "armed": true,
+    "queued": 0,
+    "played": 1,
+    "self_tests": 1,
+    "dropped": 0,
+    "motor_error": 0,
+    "audio_error": 0,
+    "stream_ms": 795,
+    "merged": 2,
+    "last_batch": 3,
+    "volume": 35,
+    "vibration": true
+  },
+  "network_before": {
+    "configured": true,
+    "connected": true,
+    "pulls": 100,
+    "last_ts": 1793634842,
+    "connections": 1,
+    "ip": "192.168.0.115"
+  },
+  "network_after": {
+    "configured": true,
+    "connected": true,
+    "pulls": 107,
+    "last_ts": 1793634842,
+    "connections": 1,
+    "ip": "192.168.0.115"
+  }
+}

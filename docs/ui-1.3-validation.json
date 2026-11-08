@@ -1,0 +1,21 @@
+{
+  "release": "1.3.0",
+  "status": "installed_healthy",
+  "device_id": "4553502d4952495301001c2904d0a33a",
+  "boot_id": "8927633728320022167",
+  "firmware_sha256": "de3b3e894803eebb8c17ef78ab6ec26a98d3c47525a74d19a5f75611fd0462f4",
+  "tests_passed": 17,
+  "native_verification": [
+    "rotating spinner",
+    "green unread indicator",
+    "green cleared after read",
+    "faster blink measured",
+    "completed task title",
+    "clock",
+    "touch/back",
+    "lifecycle states"
+  ],
+  "task_scope": "local Codex chats",
+  "desktop_read_state": "read-only sidebar snapshot, backend receipts fallback",
+  "bundle": "dist/codex-pet-1.3.0-wifi.irisfw"
+}

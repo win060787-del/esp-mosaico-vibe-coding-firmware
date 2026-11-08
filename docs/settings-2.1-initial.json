@@ -1,0 +1,12 @@
+{
+  "volume": 50,
+  "brightness": 80,
+  "vibration": true,
+  "sound": true,
+  "color": 0,
+  "saved": true,
+  "schema": 2,
+  "persisted_volume": 50,
+  "persisted_sound": true,
+  "persisted_color": 0
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.5.4",
+  "healthy_update": true,
+  "tests_passed": 23,
+  "amplitude": 9500,
+  "previous_amplitude": 12500,
+  "duration_ms": 800,
+  "fetch_interval_ms": 500,
+  "notification_test": {
+    "armed": true,
+    "queued": 0,
+    "played": 1,
+    "self_tests": 1,
+    "dropped": 0,
+    "motor_error": 0,
+    "audio_error": 0
+  },
+  "subjective_volume": "Awaiting user observation"
+}

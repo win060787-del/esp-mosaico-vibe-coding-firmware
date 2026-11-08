@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.db
+*.sqlite
+*.key
+*.pem
+*.crt
+*.irisfw
+*.bin
+firmware/projects/codex_pet/build/
+firmware/projects/codex_pet/build-sim/
+firmware/projects/codex_pet/managed_components/

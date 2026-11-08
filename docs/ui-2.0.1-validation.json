@@ -1,0 +1,81 @@
+{
+  "version": "2.0.1",
+  "device_id": "4553502d4952495301001c2904d0a33a",
+  "boot_id": "17740528642475378913",
+  "transport": "TCP",
+  "healthy_wireless_update": true,
+  "image_references": 0,
+  "tests_passed": 25,
+  "native_ui": "design/ui-2.0-simulator",
+  "persistent_settings": {
+    "after_reboot": {
+      "volume": 30,
+      "brightness": 90,
+      "vibration": false,
+      "saved": true
+    },
+    "restored": {
+      "volume": 35,
+      "brightness": 100,
+      "vibration": true,
+      "saved": true
+    },
+    "network": {
+      "configured": true,
+      "connected": true,
+      "pulls": 39,
+      "last_ts": 1793634810,
+      "connections": 1,
+      "ip": "192.168.0.115"
+    }
+  },
+  "merged_notification": {
+    "before": {
+      "armed": true,
+      "queued": 0,
+      "played": 0,
+      "self_tests": 0,
+      "dropped": 0,
+      "motor_error": 0,
+      "audio_error": 0,
+      "stream_ms": 0,
+      "merged": 0,
+      "last_batch": 0,
+      "volume": 35,
+      "vibration": true
+    },
+    "after": {
+      "armed": true,
+      "queued": 0,
+      "played": 1,
+      "self_tests": 1,
+      "dropped": 0,
+      "motor_error": 0,
+      "audio_error": 0,
+      "stream_ms": 795,
+      "merged": 2,
+      "last_batch": 3,
+      "volume": 35,
+      "vibration": true
+    },
+    "network_before": {
+      "configured": true,
+      "connected": true,
+      "pulls": 100,
+      "last_ts": 1793634842,
+      "connections": 1,
+      "ip": "192.168.0.115"
+    },
+    "network_after": {
+      "configured": true,
+      "connected": true,
+      "pulls": 107,
+      "last_ts": 1793634842,
+      "connections": 1,
+      "ip": "192.168.0.115"
+    }
+  },
+  "same_lan_required": true,
+  "automatic_previous_app_rollback": false,
+  "retained_recovery_preserved": true
+}

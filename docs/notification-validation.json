@@ -1,0 +1,31 @@
+{
+  "release": "1.4.4",
+  "status": "installed_healthy",
+  "device_id": "4553502d4952495301001c2904d0a33a",
+  "boot_id": "17820690524690916776",
+  "firmware_sha256": "db097ffa0b996f8a99335e5bb7ab92de827d080f3ddb73471948b1e9a5eac6ca",
+  "tests_passed": 21,
+  "automatic_real_completion_alerts_verified_on_1_4_2": 2,
+  "motor_user_confirmed": true,
+  "audio_user_confirmed_on_versions": [
+    "1.4.2 audio diagnostic",
+    "1.4.3 production pattern"
+  ],
+  "final_adjustment": "800ms, codec curve 100, PCM scale 16000, linear decay",
+  "final_self_test_driver_results": {
+    "motor": 0,
+    "audio": 0,
+    "pcm_peak": 15376,
+    "pa": 1,
+    "dac_mute_register": 0,
+    "dac_volume_register": 198
+  },
+  "final_subjective_level_confirmed": false,
+  "policy": [
+    "one alert per immutable completion key",
+    "startup history suppressed",
+    "replayed snapshots do not retrigger"
+  ],
+  "ui_unchanged": true,
+  "bundle": "dist/codex-pet-1.4.4-wifi.irisfw"
+}

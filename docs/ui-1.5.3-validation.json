@@ -1,0 +1,33 @@
+{
+  "version": "1.5.3",
+  "update_healthy": true,
+  "tests_passed": 23,
+  "fetch_target_ms": 500,
+  "first_network": {
+    "configured": true,
+    "connected": true,
+    "pulls": 14,
+    "last_ts": 1793631935
+  },
+  "last_network": {
+    "configured": true,
+    "connected": true,
+    "pulls": 24,
+    "last_ts": 1793631945
+  },
+  "observation_seconds": 4.848,
+  "estimated_poll_seconds": 0.485,
+  "notification": {
+    "armed": true,
+    "queued": 0,
+    "played": 1,
+    "self_tests": 1,
+    "dropped": 0,
+    "motor_error": 0,
+    "audio_error": 0
+  },
+  "chime_amplitude": 12500,
+  "previous_chime_amplitude": 16000,
+  "duration_ms": 800,
+  "subjective_volume": "Not confirmed by user"
+}

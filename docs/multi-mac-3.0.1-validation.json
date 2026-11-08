@@ -1,0 +1,33 @@
+{
+  "fixed": {
+    "mode": 1,
+    "terminals": 1,
+    "selected": true
+  },
+  "aggregate": {
+    "mode": 2,
+    "terminals": 1,
+    "selected": true
+  },
+  "auto": {
+    "mode": 0,
+    "terminals": 1,
+    "selected": true
+  },
+  "pairing_code_generated": true,
+  "saved_wifi_count": 1,
+  "polls_in_window": 9,
+  "reused_connection": true,
+  "settings": {
+    "volume": 62,
+    "brightness": 80,
+    "vibration": true,
+    "sound": true,
+    "color": 1,
+    "saved": true,
+    "schema": 2,
+    "persisted_volume": 62,
+    "persisted_sound": true,
+    "persisted_color": 1
+  }
+}

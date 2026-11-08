@@ -1,0 +1,22 @@
+{
+  "after_reboot": {
+    "volume": 30,
+    "brightness": 90,
+    "vibration": false,
+    "saved": true
+  },
+  "restored": {
+    "volume": 35,
+    "brightness": 100,
+    "vibration": true,
+    "saved": true
+  },
+  "network": {
+    "configured": true,
+    "connected": true,
+    "pulls": 39,
+    "last_ts": 1793634810,
+    "connections": 1,
+    "ip": "192.168.0.115"
+  }
+}
