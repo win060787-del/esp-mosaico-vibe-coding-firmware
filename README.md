@@ -2,7 +2,7 @@
 
 **ESP-Mosaico Vibe coding固件** is an open-source Codex desk pet for the ESP-Iris Mosaico (ESP32-S31). It shows live Codex quota, reset countdown, running tasks and recent activity on an animated, code-rendered face. Tap the face to dictate into Codex on a Mac. Data synchronizes over Wi-Fi; USB is only needed for initial provisioning or maintenance.
 
-[中文说明](#中文说明) · [English](#english) · [Screenshots](#screenshots) · [Source layout](#source-layout)
+[中文说明](#中文说明) · [功能详情](#功能详情) · [English](#english) · [Screenshots](#screenshots) · [Source layout](#source-layout)
 
 ## Screenshots
 
@@ -18,14 +18,26 @@ These are screenshots from the project's native simulator using the same scene a
 
 ## 中文说明
 
-这是一套基于 **ESP-Mosaico Vibe、ESP-Iris Mosaico 和 ESP32-S31** 的开源 Codex 桌宠固件及 Mac 配套程序。主屏用原生绘图呈现紫色机器人表情、眨眼动画、电量、时间、Wi-Fi 状态、Codex 剩余额度、重置倒计时和进行中的任务数。下方优先展示刚刚完成的任务；没有新完成任务时显示最近一次交互的任务名称与状态。
+这是一套基于 [ESP-Mosaico Vibe](https://github.com/esp-mosaico/esp-mosaico-vibe) 工作区、ESP-Iris Mosaico 硬件和 ESP32-S31 的开源 Codex 桌宠固件及 Mac 配套程序。我们使用该工作区固定的工具链、板级支持包、GSP 模拟器、Iris 通信和 Vibe/Recovery 更新流程，在其中开发独立的 `codex_pet` 应用；本仓库不是上游项目的官方固件或完整镜像。依赖版本和代码来源见[依赖说明](docs/dependencies.md)。
 
-- **任务进展**：点击额度卡片或底部详情进入任务列表。执行中的任务显示旋转状态，已完成但未读的结果显示绿点；完成提示通过震动和本地合成提示音发出。
-- **语音输入**：点击桌宠进入语音页，再点击中央麦克风开始或停止听写。音波随音量变化，底部提供删除和发送。桌宠通过局域网 TLS 将音频送到 Mac，Mac 上的 Qwen3-ASR 本地模型转写后写入 Codex 输入框。桌宠没有文字输入框。首次加载模型需要等待，后续常驻服务可复用模型。
-- **额度与日期**：Mac 采集 Codex 额度、任务和完成事件并上传有界状态；中国大陆业务服务器通过 HTTPS 将数据和时间下发给设备。设备经 Wi-Fi 自动刷新，不持续依赖 USB。
-- **多台 Mac**：设置页支持自动选择正在工作的 Mac、固定一台 Mac 或合并任务。额度不会跨账号相加。
-- **网络与偏好**：设备端可扫描 Wi-Fi、输入密码、保存多个网络；设置页可调整桌宠颜色、亮度、音量，关闭声音或震动。
-- **资源方式**：主界面、表情、图标和动画由代码及 GSP 场景生成，设备不接收整屏图片流。
+主屏用原生绘图呈现紫色机器人表情、眨眼动画、电量、时间、Wi-Fi 状态、Codex 剩余额度、重置倒计时和进行中的任务数。下方优先展示刚刚完成的任务；没有新完成任务时显示最近一次交互的任务名称与状态。
+
+## 功能详情
+
+| 页面 / 能力 | 实际功能 |
+| --- | --- |
+| 桌宠主屏 | 黑色背景、代码绘制的机器人表情与眨眼动画；显示时钟、彩色电量、Wi-Fi 状态、`work ...`、本周剩余额度、重置倒计时和进行中任务数。点击表情进入语音页。 |
+| 任务与最近交互 | 点击额度卡片或底部详情进入任务列表；进行中显示转圈，完成且未读显示绿点。底部优先显示刚刚完成的任务内容，没有未读完成任务时回退到最近一次交互。 |
+| 完成提醒 | 新完成事件可触发震动和设备本地合成提示音；设置中分别控制声音、音量和震动。 |
+| Mac 本地语音输入 | 设备麦克风录音，显示实时音波和状态；Mac 上的 Qwen3-ASR 转写并写入当前 Codex 输入框。语音页支持删除和发送；音频不上传到业务中继。 |
+| 多台 Mac | 每台 Mac 使用独立身份上报。可自动跟随正在工作的 Mac、固定一台终端，或汇总任务；共享任务去重，不把不同账号的额度相加。支持一次性配对码添加终端。 |
+| 多个 Wi-Fi | 设备可扫描附近网络、屏幕输入密码并连接；最多保存 8 个网络。可在网络详情中连接、设为首选或删除；掉线后按可见网络与优先级尝试重连。凭证保存在设备，不进入公开仓库。 |
+| 外观设置 | 六种代码绘制的桌宠颜色：紫、蓝、薄荷绿、橙、粉、青；支持亮度调节，选择保存在设备上。 |
+| 无线运行与更新 | Mac 上传额度和任务状态到中国大陆 HTTPS 中继，设备通过 Wi-Fi 获取状态和服务器时间，无须持续插 USB。Mac 可选择 `.irisfw` 包，经保留的 Vibe/Recovery 流程无线更新应用，并保留设备配置。 |
+
+**固件模式说明：**设备保留应用固件与 Vibe/Recovery 维护模式，更新时可选择不同版本的 `.irisfw` 包。当前设置页没有“安装并一键切换多个应用固件”的功能，也没有声称可同时运行多套桌宠应用。
+
+主界面、表情、图标和动画由代码及 GSP 场景生成，设备不接收整屏图片流。配网、终端选择和外观设置的更多行为见[多 Mac 与 Wi-Fi 设计及验证](docs/multi-mac-3.0.1.md)。
 
 ### 数据路径
 
@@ -44,7 +56,9 @@ Mosaico mic ── local-network TLS audio ──> Mac local Qwen3-ASR ──> C
 
 ## English
 
-This project turns an ESP-Iris Mosaico into a physical companion for Codex. It renders a programmable face and live work status, including quota remaining, reset time, active task count, unread completions, and the most recent interaction. The face opens a voice page; the Mac performs local speech recognition and inserts dictation into the Codex composer. Firmware, Mac companion, relay source, simulator scene and tests are published together.
+This project turns an ESP-Iris Mosaico into a physical companion for Codex. It uses the upstream [ESP-Mosaico Vibe](https://github.com/esp-mosaico/esp-mosaico-vibe) workspace, pinned toolchain, board support, simulator and Vibe/Recovery update flow to build an independent `codex_pet` application. It is not an official upstream firmware image.
+
+The code-rendered pet shows quota remaining, reset countdown, active task count, unread completions, recent interaction, clock, Wi-Fi and battery. Tap the face for local Mac speech-to-text and Codex composer input. Settings include six face colors, brightness, sound level, mute and vibration. Save up to eight Wi-Fi networks with on-device scanning, password entry, priority and reconnection. Pair multiple Macs and choose automatic follow, a fixed Mac or merged tasks. Choose an `.irisfw` package for wireless application updates through retained Vibe/Recovery; simultaneous multi-firmware boot selection is not implemented. Firmware, Mac companion, relay source, simulator scene and tests are published together.
 
 The status channel uses a mainland-China HTTPS relay so the pet can run from Wi-Fi and power alone. The voice channel stays on the local network and is processed on the Mac. See the Chinese feature list and linked source directories for setup, behavior and limitations.
 
