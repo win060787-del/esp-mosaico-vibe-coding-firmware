@@ -60,6 +60,7 @@ static bool action(void *ctx,app_pet_action_t action,unsigned value) {
     else if(action==PET_PREVIEW)++previews;
     else if(action==PET_SET_SOUND)prefs.sound=value!=0;
     else if(action==PET_SET_COLOR)prefs.color=value;
+    else if(action==PET_SET_LANGUAGE)prefs.language=value;
     const char *path=getenv("PET_SIM_PREFS_FILE");
     if(path){FILE *f=fopen(path,"w");if(f){fprintf(f,"%u %u %u %u %u %u",prefs.volume,prefs.brightness,prefs.vibration,previews,prefs.sound,prefs.color);fclose(f);}}
     return true;
@@ -108,7 +109,7 @@ esp_gsp_err_t gsp_bridge_app_init(esp_gsp_handle_t ui)
 {
     backend.last = -1;
     esp_gsp_err_t err=app_pet_create(ui, sample, NULL, &backend.controller);
-    if(err==ESP_GSP_OK){app_pet_set_battery_source(backend.controller,battery_sample,NULL);app_pet_set_controls(backend.controller,preferences,action,NULL);app_pet_set_management(backend.controller,management,manage_action,NULL);app_pet_set_join(backend.controller,join_wifi);app_pet_set_voice(backend.controller,voice_poll,voice_action,NULL);}
+    if(err==ESP_GSP_OK){prefs.language=getenv("PET_SIM_LANGUAGE") && strcmp(getenv("PET_SIM_LANGUAGE"),"en")==0;app_pet_set_battery_source(backend.controller,battery_sample,NULL);app_pet_set_controls(backend.controller,preferences,action,NULL);app_pet_set_management(backend.controller,management,manage_action,NULL);app_pet_set_join(backend.controller,join_wifi);app_pet_set_voice(backend.controller,voice_poll,voice_action,NULL);}
     return err;
 }
 void gsp_bridge_app_deinit(esp_gsp_handle_t ui)

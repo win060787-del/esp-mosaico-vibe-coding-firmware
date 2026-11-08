@@ -39,8 +39,8 @@ esp_gsp_err_t app_pet_destroy(app_pet_handle_t *handle);
 typedef int (*app_pet_battery_source_t)(void *ctx);
 void app_pet_set_battery_source(app_pet_handle_t handle, app_pet_battery_source_t source, void *ctx);
 
-typedef struct { unsigned volume,brightness,color;bool vibration,sound,wireless_ready,save_error;char version[16]; } app_pet_preferences_t;
-typedef enum { PET_SET_VOLUME,PET_SET_BRIGHTNESS,PET_TOGGLE_VIBRATION,PET_PREVIEW,PET_SET_SOUND,PET_SET_COLOR } app_pet_action_t;
+typedef struct { unsigned volume,brightness,color,language;bool vibration,sound,wireless_ready,save_error;char version[16]; } app_pet_preferences_t;
+typedef enum { PET_SET_VOLUME,PET_SET_BRIGHTNESS,PET_TOGGLE_VIBRATION,PET_PREVIEW,PET_SET_SOUND,PET_SET_COLOR,PET_SET_LANGUAGE } app_pet_action_t;
 typedef bool (*app_pet_preferences_source_t)(void *ctx,app_pet_preferences_t *out);
 typedef bool (*app_pet_action_handler_t)(void *ctx,app_pet_action_t action,unsigned value);
 void app_pet_set_controls(app_pet_handle_t handle,app_pet_preferences_source_t source,

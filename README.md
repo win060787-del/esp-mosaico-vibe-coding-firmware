@@ -32,7 +32,7 @@ These are screenshots from the project's native simulator using the same scene a
 | Mac 本地语音输入 | 设备麦克风录音，显示实时音波和状态；Mac 上的 Qwen3-ASR 转写并写入当前 Codex 输入框。语音页支持删除和发送；音频不上传到业务中继。 |
 | 多台 Mac | 每台 Mac 使用独立身份上报。可自动跟随正在工作的 Mac、固定一台终端，或汇总任务；共享任务去重，不把不同账号的额度相加。支持一次性配对码添加终端。 |
 | 多个 Wi-Fi | 设备可扫描附近网络、屏幕输入密码并连接；最多保存 8 个网络。可在网络详情中连接、设为首选或删除；掉线后按可见网络与优先级尝试重连。凭证保存在设备，不进入公开仓库。 |
-| 外观设置 | 六种代码绘制的桌宠颜色：紫、蓝、薄荷绿、橙、粉、青；支持亮度调节，选择保存在设备上。 |
+| 外观与语言 | 六种代码绘制的桌宠颜色：紫、蓝、薄荷绿、橙、粉、青；支持亮度调节。设置页可在中文和 English 之间切换，语言及外观选择保存在设备上。任务名称、Wi-Fi 名称和 Mac 名称保留原始内容。 |
 | 无线运行与更新 | Mac 上传额度和任务状态到中国大陆 HTTPS 中继，设备通过 Wi-Fi 获取状态和服务器时间，无须持续插 USB。Mac 可选择 `.irisfw` 包，经保留的 Vibe/Recovery 流程无线更新应用，并保留设备配置。 |
 
 **固件模式说明：**设备保留应用固件与 Vibe/Recovery 维护模式，更新时可选择不同版本的 `.irisfw` 包。当前设置页没有“安装并一键切换多个应用固件”的功能，也没有声称可同时运行多套桌宠应用。
@@ -58,7 +58,7 @@ Mosaico mic ── local-network TLS audio ──> Mac local Qwen3-ASR ──> C
 
 This project turns an ESP-Iris Mosaico into a physical companion for Codex. It uses the upstream [ESP-Mosaico Vibe](https://github.com/esp-mosaico/esp-mosaico-vibe) workspace, pinned toolchain, board support, simulator and Vibe/Recovery update flow to build an independent `codex_pet` application. It is not an official upstream firmware image.
 
-The code-rendered pet shows quota remaining, reset countdown, active task count, unread completions, recent interaction, clock, Wi-Fi and battery. Tap the face for local Mac speech-to-text and Codex composer input. Settings include six face colors, brightness, sound level, mute and vibration. Save up to eight Wi-Fi networks with on-device scanning, password entry, priority and reconnection. Pair multiple Macs and choose automatic follow, a fixed Mac or merged tasks. Choose an `.irisfw` package for wireless application updates through retained Vibe/Recovery; simultaneous multi-firmware boot selection is not implemented. Firmware, Mac companion, relay source, simulator scene and tests are published together.
+The code-rendered pet shows quota remaining, reset countdown, active task count, unread completions, recent interaction, clock, Wi-Fi and battery. Tap the face for local Mac speech-to-text and Codex composer input. Settings include Chinese/English UI selection, six face colors, brightness, sound level, mute and vibration. Language and appearance survive restart; task titles, Wi-Fi SSIDs and Mac names remain in their original language. Save up to eight Wi-Fi networks with on-device scanning, password entry, priority and reconnection. Pair multiple Macs and choose automatic follow, a fixed Mac or merged tasks. Choose an `.irisfw` package for wireless application updates through retained Vibe/Recovery; simultaneous multi-firmware boot selection is not implemented. Firmware, Mac companion, relay source, simulator scene and tests are published together.
 
 The status channel uses a mainland-China HTTPS relay so the pet can run from Wi-Fi and power alone. The voice channel stays on the local network and is processed on the Mac. See the Chinese feature list and linked source directories for setup, behavior and limitations.
 

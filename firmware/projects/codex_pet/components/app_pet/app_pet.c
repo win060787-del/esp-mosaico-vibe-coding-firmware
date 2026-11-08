@@ -51,6 +51,40 @@ static void check(struct app_pet *p, esp_gsp_err_t e)
 {
     if (e != ESP_GSP_OK) p->last_error = e;
 }
+#include "ui/i18n_labels.inc"
+static const char *tr(const struct app_pet *p,const char *zh,const char *en)
+{
+    return p->preferences.language ? en : zh;
+}
+static const char *ui_message(const struct app_pet *p,const char *message)
+{
+    if(!p->preferences.language)return message;
+    static const struct {const char *zh,*en;} messages[]={
+        {"选择未保存，请重试","Selection not saved. Retry."},
+        {"终端列表暂不可用","Mac list unavailable"},
+        {"终端列表格式错误","Invalid Mac list"},
+        {"请先在 Mac 完成初始配置","Finish Mac setup first"},
+        {"配对码生成失败，请重试","Could not create code. Retry."},
+        {"在另一台 Mac 输入配对码","Enter this code on another Mac"},
+        {"正在查找已保存的网络","Finding saved networks"},
+        {"正在连接，失败会尝试下一个网络","Connecting; will try next network"},
+        {"选择网络","Select a network"},
+        {"扫描失败，请重试","Scan failed. Retry."},
+        {"已保存","Saved"},
+        {"保存失败，请检查网络数量和密码","Could not save. Check networks/password"},
+        {"请先选择终端","Select a Mac first"},
+        {"热点启动失败，请重试","Hotspot failed. Retry."},
+        {"用手机连接热点并打开配网页面","Connect phone to hotspot and open setup"},
+        {"配网热点已关闭","Setup hotspot closed"},
+        {"已连接","Connected"},
+        {"请添加 Wi-Fi","Add Wi-Fi"},
+        {"暂未连上，稍后重试已保存网络","Offline; retrying saved networks"},
+        {"Wi-Fi 初始化失败","Wi-Fi setup failed"},
+    };
+    for(unsigned i=0;i<sizeof(messages)/sizeof(messages[0]);++i)
+        if(!strcmp(message,messages[i].zh))return messages[i].en;
+    return message;
+}
 static void eyes(struct app_pet *p, int which)
 {
     if (p->shown_eyes == which) return;
@@ -62,14 +96,14 @@ static void eyes(struct app_pet *p, int which)
     for (unsigned i = 0; i < 6; ++i) check(p, setters[i](p->ui, (int)i == which));
     p->shown_eyes = which;
 }
-static void remaining_time(char *out, size_t size, uint32_t now, uint32_t reset)
+static void remaining_time(char *out, size_t size, uint32_t now, uint32_t reset, bool english)
 {
     uint32_t seconds = reset > now ? reset - now : 0;
     if (!reset) snprintf(out, size, "--");
-    else if (!seconds) snprintf(out, size, "刷新中");
-    else if (seconds >= 86400) snprintf(out, size, "%u天%u时", (unsigned)(seconds / 86400), (unsigned)((seconds % 86400) / 3600));
-    else if (seconds >= 3600) snprintf(out, size, "%u时%u分", (unsigned)(seconds / 3600), (unsigned)((seconds % 3600) / 60));
-    else snprintf(out, size, "%u分钟", (unsigned)((seconds + 59) / 60));
+    else if (!seconds) snprintf(out, size, "%s",english?"Refreshing":"刷新中");
+    else if (seconds >= 86400) snprintf(out, size, english?"%ud %uh":"%u天%u时", (unsigned)(seconds / 86400), (unsigned)((seconds % 86400) / 3600));
+    else if (seconds >= 3600) snprintf(out, size, english?"%uh %um":"%u时%u分", (unsigned)(seconds / 3600), (unsigned)((seconds % 3600) / 60));
+    else snprintf(out, size, english?"%um":"%u分钟", (unsigned)((seconds + 59) / 60));
 }
 static bool online(const struct app_pet *p)
 {
@@ -104,8 +138,9 @@ static void render(struct app_pet *p)
     check(p,gsp_pet_clock_set_text(p->ui,value));
     const bool done = linked && p->data.done_at && now >= p->data.done_at && now - p->data.done_at < DONE_SECONDS;
     const app_pet_state_t state = linked ? p->data.state : PET_OFFLINE;
-    static const char *const status[] = {"等待连接", "空闲中", "work ...", "等待你确认", "任务已完成", "任务失败"};
-    check(p, gsp_pet_status_set_text(p->ui, status[state]));
+    static const char *const status_zh[] = {"等待连接", "空闲中", "work ...", "等待你确认", "任务已完成", "任务失败"};
+    static const char *const status_en[] = {"Connecting", "Idle", "work ...", "Needs You", "Completed", "Failed"};
+    check(p, gsp_pet_status_set_text(p->ui, (p->preferences.language?status_en:status_zh)[state]));
     check(p,gsp_pet_link_online_set_visible(p->ui,linked));
     check(p,gsp_pet_link_offline_set_visible(p->ui,!linked));
     const int battery=p->battery_source?p->battery_source(p->battery_ctx):-1;
@@ -120,20 +155,20 @@ static void render(struct app_pet *p)
     if (linked && p->data.remaining >= 0) snprintf(value, sizeof(value), "%d%%", p->data.remaining);
     else snprintf(value, sizeof(value), "--%%");
     check(p, gsp_pet_quota_set_text(p->ui, value));
-    check(p, gsp_pet_quota_label_set_text(p->ui, p->data.quota_label[0] ? p->data.quota_label : "剩余额度"));
-    if (linked) remaining_time(value, sizeof(value), now, p->data.reset_at);
+    check(p, gsp_pet_quota_label_set_text(p->ui, p->preferences.language?"Quota Left":p->data.quota_label[0] ? p->data.quota_label : "剩余额度"));
+    if (linked) remaining_time(value, sizeof(value), now, p->data.reset_at,p->preferences.language);
     else snprintf(value, sizeof(value), "--");
     check(p, gsp_pet_reset_set_text(p->ui, value));
     if (linked) snprintf(value, sizeof(value), "%u%s", p->data.active, p->data.partial ? "+" : "");
     else snprintf(value, sizeof(value), "--");
     check(p, gsp_pet_active_set_text(p->ui, value));
     check(p, gsp_pet_blue_set_visible(p->ui, done));
-    if(done && p->data.done_count>1)snprintf(value,sizeof(value),"刚完成%u项",p->data.done_count);
-    else snprintf(value,sizeof(value),"%s",done?"刚刚完成":"最近交互");
+    if(done && p->data.done_count>1)snprintf(value,sizeof(value),p->preferences.language?"%u Done":"刚完成%u项",p->data.done_count);
+    else snprintf(value,sizeof(value),"%s",done?tr(p,"刚刚完成","Just Done"):tr(p,"最近交互","Recent"));
     check(p,gsp_pet_done_set_text(p->ui,value));
     char completed[PET_TITLE_BYTES+4];
     size_t used=0;unsigned cells=0;
-    const char *recent=linked && p->data.recent_title[0]?p->data.recent_title:linked?"暂无交互记录":"等待数据同步";
+    const char *recent=linked && p->data.recent_title[0]?p->data.recent_title:linked?tr(p,"暂无交互记录","No recent activity"):tr(p,"等待数据同步","Waiting for data");
     const unsigned char *title=(const unsigned char *)(done?p->data.done_title:recent);
     while(title[used]){
         unsigned bytes=title[used]<0x80?1:(title[used]&0xe0)==0xc0?2:(title[used]&0xf0)==0xe0?3:4;
@@ -149,12 +184,12 @@ static void render(struct app_pet *p)
     };
     for (unsigned i = 0; i < PET_TASKS; ++i) {
         const char *title = linked ? p->data.tasks[i] : "";
-        if (i == 0 && linked && !p->data.active && !p->data.tasks[i][0]) title = "暂无进行中的任务";
-        if (i == 0 && !linked) title = "等待云端数据";
+        if (i == 0 && linked && !p->data.active && !p->data.tasks[i][0]) title = tr(p,"暂无进行中的任务","No active tasks");
+        if (i == 0 && !linked) title = tr(p,"等待云端数据","Waiting for cloud data");
         check(p, labels[i](p->ui, title));
         task_icon(p,i,linked && p->data.tasks[i][0]);
     }
-    check(p,gsp_pet_mg_detail_heading_set_text(p->ui,done?"最近完成":"最近交互"));
+    check(p,gsp_pet_mg_detail_heading_set_text(p->ui,done?tr(p,"最近完成","Latest Done"):tr(p,"最近交互","Recent")));
     check(p, gsp_pet_done_detail_set_text(p->ui, done ? p->data.done_title : recent));
 }
 static void management_send(struct app_pet *p,app_pet_management_action_t action,unsigned value)
@@ -184,12 +219,14 @@ static void show_page(struct app_pet *p,unsigned page)
 static void render_management(struct app_pet *p)
 {
     app_pet_management_t *m=&p->management;char value[128];
-    const char *modes[]={"自动跟随","固定终端","全部汇总"};
+    const char *modes_zh[]={"自动跟随","固定终端","全部汇总"};
+    const char *modes_en[]={"Auto","Fixed Mac","All Macs"};
+    const char *const *modes=p->preferences.language?modes_en:modes_zh;
     if(p->page==1){
         if(p->preferences.version[0])check(p,gsp_pet_home_version_set_text(p->ui,p->preferences.version));
         check(p,gsp_pet_mg_hub_source_set_text(p->ui,modes[m->mode<3?m->mode:0]));
-        check(p,gsp_pet_mg_hub_wifi_set_text(p->ui,m->connected_ssid[0]?m->connected_ssid:"未连接"));
-        check(p,gsp_pet_mg_hub_update_set_text(p->ui,p->preferences.wireless_ready?"已就绪":"待配对"));return;
+        check(p,gsp_pet_mg_hub_wifi_set_text(p->ui,m->connected_ssid[0]?m->connected_ssid:tr(p,"未连接","Not connected")));
+        check(p,gsp_pet_mg_hub_update_set_text(p->ui,p->preferences.wireless_ready?tr(p,"已就绪","Ready"):tr(p,"待配对","Pairing needed")));return;
     }
     if(p->page==0 || p->page==2)return;
     esp_gsp_err_t (*const mode[])(esp_gsp_handle_t,bool)={gsp_pet_mg_mode0_set_visible,gsp_pet_mg_mode1_set_visible,gsp_pet_mg_mode2_set_visible};
@@ -198,11 +235,11 @@ static void render_management(struct app_pet *p)
     esp_gsp_err_t (*const wifi[])(esp_gsp_handle_t,const char*)={gsp_pet_mg_wifi0_set_text,gsp_pet_mg_wifi1_set_text,gsp_pet_mg_wifi2_set_text,gsp_pet_mg_wifi3_set_text};
     if(p->page==3)for(unsigned i=0;i<3;++i)check(p,mode[i](p->ui,m->mode==i));
     for(unsigned i=0;i<4;++i){
-        if(m->terminal_ids[i][0])snprintf(value,sizeof(value),"%s · %s %u",m->terminal_names[i],m->terminal_online[i]?"在线":"离线",m->terminal_active[i]);
+        if(m->terminal_ids[i][0])snprintf(value,sizeof(value),"%s · %s %u",m->terminal_names[i],m->terminal_online[i]?tr(p,"在线","Online"):tr(p,"离线","Offline"),m->terminal_active[i]);
         else value[0]=0;
         if(p->page==3)check(p,terminals[i](p->ui,value));
         if(p->page==3)check(p,selected[i](p->ui,m->terminal_ids[i][0]&&!strcmp(m->terminal_ids[i],m->selected_terminal)));
-        if(m->wifi_ssids[i][0])snprintf(value,sizeof(value),"%u  %s%s",m->wifi_page*4+i+1,m->wifi_ssids[i],!strcmp(m->wifi_ssids[i],m->connected_ssid)?" · 已连接":"");
+        if(m->wifi_ssids[i][0])snprintf(value,sizeof(value),"%u  %s%s",m->wifi_page*4+i+1,m->wifi_ssids[i],!strcmp(m->wifi_ssids[i],m->connected_ssid)?tr(p," · 已连接"," · Connected"):"");
         else value[0]=0;
         if(p->page==4)check(p,wifi[i](p->ui,value));
     }
@@ -210,18 +247,18 @@ static void render_management(struct app_pet *p)
     if(p->page==3)check(p,gsp_pet_mg_terminal_page_set_text(p->ui,value));
     snprintf(value,sizeof(value),"%u/%u",m->wifi_page+1,(m->wifi_total+3)/4?(m->wifi_total+3)/4:1);
     if(p->page==4)check(p,gsp_pet_mg_wifi_page_set_text(p->ui,value));
-    if(p->page==3)check(p,gsp_pet_mg_terminal_status_set_text(p->ui,m->status));
-    if(p->page==4)check(p,gsp_pet_mg_wifi_message_set_text(p->ui,m->status));
-    if(p->page==4)check(p,gsp_pet_mg_connected_set_text(p->ui,m->connected_ssid[0]?m->connected_ssid:"未连接"));
+    if(p->page==3)check(p,gsp_pet_mg_terminal_status_set_text(p->ui,ui_message(p,m->status)));
+    if(p->page==4)check(p,gsp_pet_mg_wifi_message_set_text(p->ui,ui_message(p,m->status)));
+    if(p->page==4)check(p,gsp_pet_mg_connected_set_text(p->ui,m->connected_ssid[0]?m->connected_ssid:tr(p,"未连接","Not connected")));
     if(p->page==5)check(p,gsp_pet_mg_wifi_name_set_text(p->ui,p->wifi_name));
     if(p->page==8)check(p,gsp_pet_mg_delete_name_set_text(p->ui,p->wifi_name));
-    snprintf(value,sizeof(value),"连接优先级 %u",p->wifi_index+1);
+    snprintf(value,sizeof(value),p->preferences.language?"Priority %u":"连接优先级 %u",p->wifi_index+1);
     if(p->page==5)check(p,gsp_pet_mg_wifi_priority_set_text(p->ui,value));
     if(p->page==6)check(p,gsp_pet_enrollment_code_set_text(p->ui,m->enrollment_code[0]?m->enrollment_code:"..."));
-    if(p->page==6)check(p,gsp_pet_mg_enrollment_status_set_text(p->ui,m->status));
-    if(p->page==7)check(p,gsp_pet_mg_portal_ssid_set_text(p->ui,m->portal_active?m->portal_ssid:"热点已关闭"));
+    if(p->page==6)check(p,gsp_pet_mg_enrollment_status_set_text(p->ui,ui_message(p,m->status)));
+    if(p->page==7)check(p,gsp_pet_mg_portal_ssid_set_text(p->ui,m->portal_active?m->portal_ssid:tr(p,"热点已关闭","Hotspot closed")));
     if(p->page==7)check(p,gsp_pet_mg_portal_password_set_text(p->ui,m->portal_active?m->portal_password:""));
-    if(p->page==7)check(p,gsp_pet_mg_portal_message_set_text(p->ui,m->status));
+    if(p->page==7)check(p,gsp_pet_mg_portal_message_set_text(p->ui,ui_message(p,m->status)));
 }
 static void start_entry(struct app_pet *p,bool ssid)
 {
@@ -229,8 +266,8 @@ static void start_entry(struct app_pet *p,bool ssid)
     p->reveal=false;
     show_page(p,10);
     memset(p->input,0,sizeof(p->input));
-    check(p,gsp_pet_mg_entry_title_set_text(p->ui,ssid?"输入网络名称":p->join_ssid));
-    check(p,gsp_pet_mg_entry_status_set_text(p->ui,ssid?"输入后按 OK":"输入密码后按 OK，开放网络直接按 OK"));
+    check(p,gsp_pet_mg_entry_title_set_text(p->ui,ssid?tr(p,"输入网络名称","Network name"):p->join_ssid));
+    check(p,gsp_pet_mg_entry_status_set_text(p->ui,ssid?tr(p,"输入后按 OK","Press OK when done"):tr(p,"输入密码后按 OK，开放网络直接按 OK","Enter password, then OK")));
 }
 static void render_wifi_entry(struct app_pet *p,bool refresh)
 {
@@ -242,7 +279,7 @@ static void render_wifi_entry(struct app_pet *p,bool refresh)
             unsigned index=p->scan_page*5+i;
             check(p,rows[i](p->ui,index<p->management.scan_count?p->management.scan_ssids[index]:""));
         }
-        check(p,gsp_pet_mg_scan_status_set_text(p->ui,p->management.scan_count?"请选择网络":p->management.status));
+        check(p,gsp_pet_mg_scan_status_set_text(p->ui,p->management.scan_count?tr(p,"请选择网络","Select a network"):ui_message(p,p->management.status)));
     }
     if(p->page!=10)return;
     if(p->joining){
@@ -250,14 +287,14 @@ static void render_wifi_entry(struct app_pet *p,bool refresh)
         if(p->join_revision!=p->management.join_revision && result>=2){
             p->joining=false;
             if(result==2){show_page(p,4);render_management(p);}
-            else check(p,gsp_pet_mg_entry_status_set_text(p->ui,"连接或保存失败，请检查密码后重试"));
+            else check(p,gsp_pet_mg_entry_status_set_text(p->ui,tr(p,"连接或保存失败，请检查密码后重试","Could not connect. Check password.")));
         }
         return;
     }
     char value[65];
     strcpy(value,p->input);
     if(!p->edit_ssid && !p->reveal)memset(value,'*',strlen(value));
-    check(p,gsp_pet_mg_entry_toggle_set_text(p->ui,p->edit_ssid?"":p->reveal?"隐藏":"显示"));
+    check(p,gsp_pet_mg_entry_toggle_set_text(p->ui,p->edit_ssid?"":p->reveal?tr(p,"隐藏","Hide"):tr(p,"显示","Show")));
     check(p,gsp_pet_mg_entry_display_set_text(p->ui,value));
     memset(value,0,sizeof(value));
 }
@@ -295,8 +332,8 @@ static bool wifi_entry_event(struct app_pet *p,const esp_gsp_event_t *e)
         }else if(p->join && p->join(p->management_ctx,p->join_ssid,p->input)){
             p->joining=true;p->join_revision=p->management.join_revision;
             check(p,gsp_pet_mg_entry_display_set_text(p->ui,""));
-            check(p,gsp_pet_mg_entry_status_set_text(p->ui,"正在连接…"));
-        }else check(p,gsp_pet_mg_entry_status_set_text(p->ui,"暂时无法连接，请重试"));
+            check(p,gsp_pet_mg_entry_status_set_text(p->ui,tr(p,"正在连接…","Connecting…")));
+        }else check(p,gsp_pet_mg_entry_status_set_text(p->ui,tr(p,"暂时无法连接，请重试","Could not connect. Retry.")));
     }else {
         unsigned row;
         if(gsp_pet_event_is_scan_row0(e))row=0;
@@ -317,6 +354,11 @@ static bool wifi_entry_event(struct app_pet *p,const esp_gsp_event_t *e)
 static bool management_event(struct app_pet *p,const esp_gsp_event_t *e)
 {
     if(gsp_pet_event_is_show_settings(e))show_page(p,1);
+    else if(gsp_pet_event_is_language(e)){
+        bool sent=p->action_handler && p->action_handler(p->controls_ctx,PET_SET_LANGUAGE,!p->preferences.language);
+        if(!sent)check(p,gsp_pet_mg_hub_update_set_text(p->ui,tr(p,"未保存","Not saved")));
+        return true;
+    }
     else if(gsp_pet_event_is_hub_back(e))show_page(p,0);
     else if(gsp_pet_event_is_open_preferences(e))show_page(p,2);
     else if(gsp_pet_event_is_settings_back(e)||gsp_pet_event_is_terminals_back(e)||gsp_pet_event_is_wifi_back(e))show_page(p,1);
@@ -361,8 +403,8 @@ static void render_voice(struct app_pet *p)
 {
     if(p->page!=11)return;
     app_pet_voice_t *v=&p->voice;
-    check(p,gsp_pet_mg_voice_target_set_text(p->ui,v->name[0]?v->name:"语音输入"));
-    const char *status=v->error[0]?v->error:v->recording?"正在听写":!strcmp(v->state,"warming")?"正在加载语音模型":v->busy?"正在处理":!strcmp(v->state,"sent")?"已发送":v->connected?"点击麦克风继续":"等待 Mac 连接";
+    check(p,gsp_pet_mg_voice_target_set_text(p->ui,v->name[0]?v->name:tr(p,"语音输入","Voice Input")));
+    const char *status=v->error[0]?v->error:v->recording?tr(p,"正在听写","Listening"):!strcmp(v->state,"warming")?tr(p,"正在加载语音模型","Loading speech model"):v->busy?tr(p,"正在处理","Processing"):!strcmp(v->state,"sent")?tr(p,"已发送","Sent"):v->connected?tr(p,"点击麦克风继续","Tap mic to continue"):tr(p,"等待 Mac 连接","Waiting for Mac");
     check(p,gsp_pet_mg_voice_status_set_text(p->ui,status));
     check(p,gsp_pet_voice_record_set_enabled(p->ui,!v->busy));
     check(p,gsp_pet_voice_send_set_enabled(p->ui,!v->busy && v->text[0]));
@@ -381,7 +423,7 @@ static bool voice_event(struct app_pet *p,const esp_gsp_event_t *e)
     else if(gsp_pet_event_is_voice_clear(e)){p->voice_long=true;action="clear";}
     else if(gsp_pet_event_is_voice_delete_release(e)){if(!p->voice_long)action="delete";}
     else return false;
-    if(action && p->voice_action && !p->voice_action(p->voice_ctx,action))snprintf(p->voice.error,sizeof(p->voice.error),"操作繁忙，请稍后再试");
+    if(action && p->voice_action && !p->voice_action(p->voice_ctx,action))snprintf(p->voice.error,sizeof(p->voice.error),"%s",tr(p,"操作繁忙，请稍后再试","Busy. Try again soon."));
     render_voice(p);return true;
 }
 void app_pet_set_voice(app_pet_handle_t p,app_pet_voice_source_t source,app_pet_voice_action_t action,void *ctx){p->voice_source=source;p->voice_action=action;p->voice_ctx=ctx;}
@@ -430,23 +472,29 @@ static void timer_tick(esp_gsp_handle_t ui, void *ctx)
                 for(unsigned i=0;i<6;++i)check(p,heads[i](p->ui,colors[prefs.color]));
                 p->shown_color=prefs.color;
             }
-            bool changed=p->settings_dirty || prefs.volume!=p->preferences.volume || prefs.brightness!=p->preferences.brightness || prefs.color!=p->preferences.color || prefs.sound!=p->preferences.sound || prefs.vibration!=p->preferences.vibration || prefs.wireless_ready!=p->preferences.wireless_ready || prefs.save_error!=p->preferences.save_error || strcmp(prefs.version,p->preferences.version)!=0;
+            bool language_changed=prefs.language!=p->preferences.language;
+            bool changed=p->settings_dirty || language_changed || prefs.volume!=p->preferences.volume || prefs.brightness!=p->preferences.brightness || prefs.color!=p->preferences.color || prefs.sound!=p->preferences.sound || prefs.vibration!=p->preferences.vibration || prefs.wireless_ready!=p->preferences.wireless_ready || prefs.save_error!=p->preferences.save_error || strcmp(prefs.version,p->preferences.version)!=0;
+            p->preferences=prefs;
             if(p->settings && changed){
                 if(prefs.volume!=p->preferences.volume)check(p,gsp_pet_volume_set_value(p->ui,prefs.volume));
                 if(prefs.brightness!=p->preferences.brightness)check(p,gsp_pet_brightness_set_value(p->ui,prefs.brightness));
                 if(prefs.version[0])check(p,gsp_pet_version_set_text(p->ui,prefs.version));
-                check(p,gsp_pet_settings_result_set_text(p->ui,prefs.save_error?"未保存":""));
+                check(p,gsp_pet_settings_result_set_text(p->ui,prefs.save_error?tr(p,"未保存","Not saved"):""));
                 char value[24];snprintf(value,sizeof(value),"%u%%",prefs.volume);check(p,gsp_pet_volume_text_set_text(p->ui,value));
                 snprintf(value,sizeof(value),"%u%%",prefs.brightness);check(p,gsp_pet_brightness_text_set_text(p->ui,value));
-                check(p,gsp_pet_vibration_text_set_text(p->ui,prefs.vibration?"已开启":"已关闭"));
+                check(p,gsp_pet_vibration_text_set_text(p->ui,prefs.vibration?tr(p,"已开启","On"):tr(p,"已关闭","Off")));
                 check(p,gsp_pet_preview_set_enabled(p->ui,prefs.sound && prefs.volume>0));
-                check(p,gsp_pet_sound_text_set_text(p->ui,prefs.sound?"已开启":"已关闭"));
-                check(p,gsp_pet_wireless_text_set_text(p->ui,prefs.wireless_ready?"无线更新已就绪":"无线更新待配对"));
+                check(p,gsp_pet_sound_text_set_text(p->ui,prefs.sound?tr(p,"已开启","On"):tr(p,"已关闭","Off")));
+                check(p,gsp_pet_wireless_text_set_text(p->ui,prefs.wireless_ready?tr(p,"无线更新已就绪","Wireless update ready"):tr(p,"无线更新待配对","Pairing needed")));
                 esp_err_t (*const selected[])(esp_gsp_handle_t,bool)={gsp_pet_selected0_set_visible,gsp_pet_selected1_set_visible,gsp_pet_selected2_set_visible,gsp_pet_selected3_set_visible,gsp_pet_selected4_set_visible,gsp_pet_selected5_set_visible};
                 for(unsigned i=0;i<6;++i)check(p,selected[i](p->ui,prefs.color==i));
                 p->settings_dirty=false;
             }
-            p->preferences=prefs;
+            if(language_changed){
+                render_static_labels(p);
+                check(p,gsp_pet_language_text_set_text(p->ui,prefs.language?"English":"中文"));
+                render(p);render_management(p);render_voice(p);
+            }
         }
     }
 }
@@ -471,7 +519,7 @@ static void on_event(esp_gsp_handle_t ui, const esp_gsp_event_t *event, void *ct
         else if(gsp_pet_event_is_color5(event)){action=PET_SET_COLOR;value=5;}
         else return;
         bool sent=p->action_handler && p->action_handler(p->controls_ctx,action,(unsigned)value);
-        check(p,gsp_pet_settings_result_set_text(ui,sent?"":"未保存"));
+        check(p,gsp_pet_settings_result_set_text(ui,sent?"":tr(p,"未保存","Not saved")));
         return;
     }
     check(p,gsp_pet_details_set_visible(ui,p->details));
@@ -486,7 +534,7 @@ esp_gsp_err_t app_pet_create(esp_gsp_handle_t ui, app_pet_source_t source, void 
     p->ui = ui; p->source = source; p->source_ctx = source_ctx; p->shown_eyes = -1;p->shown_color=-1;
     p->data.remaining = -1;
     for(unsigned i=0;i<PET_TASKS;++i)p->shown_icons[i]=-1;
-    render(p); eyes(p, 3);
+    render_static_labels(p);render(p); eyes(p, 3);
     esp_gsp_err_t e = esp_gsp_on_event(ui, on_event, p);
     if (e == ESP_GSP_OK) {
         p->timer = esp_gsp_timer_create(ui, TICK_MS, timer_tick, p);

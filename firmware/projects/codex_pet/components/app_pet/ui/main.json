@@ -20,7 +20,7 @@
       "name": "clock",
       "bind": "clock",
       "text_align": "center",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "label",
@@ -35,7 +35,7 @@
       "name": "battery",
       "bind": "battery",
       "text_align": "right",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "container",
@@ -1604,7 +1604,7 @@
       "name": "status",
       "bind": "status",
       "text_align": "center",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "label",
@@ -1618,7 +1618,7 @@
       "fg_color": "#FFFFFF",
       "name": "brand",
       "bind": "brand",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "button",
@@ -1644,7 +1644,7 @@
       "fg_color": "#92999F",
       "name": "quota_label",
       "bind": "quota_label",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "label",
@@ -1658,7 +1658,7 @@
       "fg_color": "#FFFFFF",
       "name": "quota",
       "bind": "quota",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "label",
@@ -1669,7 +1669,10 @@
       "h": 25,
       "text": "重置",
       "font_size": 16,
-      "fg_color": "#92999F"
+      "fg_color": "#92999F",
+      "name": "i18n_0",
+      "bind": "i18n_0",
+      "font_charset": "重置Reset"
     },
     {
       "type": "label",
@@ -1683,7 +1686,7 @@
       "fg_color": "#FFFFFF",
       "name": "reset",
       "bind": "reset",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "label",
@@ -1694,7 +1697,10 @@
       "h": 25,
       "text": "进行中",
       "font_size": 16,
-      "fg_color": "#92999F"
+      "fg_color": "#92999F",
+      "name": "i18n_1",
+      "bind": "i18n_1",
+      "font_charset": "进行中Active"
     },
     {
       "type": "label",
@@ -1708,7 +1714,7 @@
       "fg_color": "#FFFFFF",
       "name": "active",
       "bind": "active",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "button",
@@ -1747,7 +1753,7 @@
       "fg_color": "#BAC2CA",
       "name": "done",
       "bind": "done",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "label",
@@ -1982,7 +1988,10 @@
       "h": 32,
       "text": "当前任务",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_2",
+      "bind": "i18n_2",
+      "font_charset": "当前任务Tasks"
     },
     {
       "type": "container",
@@ -3136,7 +3145,10 @@
       "h": 32,
       "text": "设置",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_3",
+      "bind": "i18n_3",
+      "font_charset": "设置Settings"
     },
     {
       "type": "label",
@@ -3151,7 +3163,7 @@
       "name": "home_version",
       "bind": "home_version",
       "text_align": "right",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "button",
@@ -3174,7 +3186,10 @@
       "h": 28,
       "text": "外观与提醒",
       "font_size": 22,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_4",
+      "bind": "i18n_4",
+      "font_charset": "外观与提醒Look & Alerts"
     },
     {
       "type": "label",
@@ -3185,7 +3200,10 @@
       "h": 25,
       "text": "声音 · 震动 · 亮度 · 颜色",
       "font_size": 16,
-      "fg_color": "#92999F"
+      "fg_color": "#92999F",
+      "name": "i18n_5",
+      "bind": "i18n_5",
+      "font_charset": "声音 · 震动 · 亮度 · 颜色Sound · Haptics · Color"
     },
     {
       "type": "label",
@@ -3220,7 +3238,10 @@
       "h": 28,
       "text": "终端",
       "font_size": 22,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_6",
+      "bind": "i18n_6",
+      "font_charset": "终端Macs"
     },
     {
       "type": "label",
@@ -3303,7 +3324,7 @@
       "x": 24,
       "y": 356,
       "w": 432,
-      "h": 72,
+      "h": 68,
       "bg_color": "#111315",
       "radius": 16
     },
@@ -3316,7 +3337,10 @@
       "h": 28,
       "text": "无线更新",
       "font_size": 22,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_7",
+      "bind": "i18n_7",
+      "font_charset": "无线更新Wireless Update"
     },
     {
       "type": "label",
@@ -3333,6 +3357,47 @@
       "font_charset_file": "fonts/task-charset.txt"
     },
     {
+      "type": "button",
+      "parent": 266,
+      "x": 24,
+      "y": 430,
+      "w": 432,
+      "h": 42,
+      "bg_color": "#111315",
+      "radius": 12,
+      "name": "language",
+      "callback": "language"
+    },
+    {
+      "type": "label",
+      "parent": 286,
+      "x": 18,
+      "y": 5,
+      "w": 160,
+      "h": 32,
+      "text": "语言",
+      "font_size": 20,
+      "fg_color": "#FFFFFF",
+      "name": "i18n_8",
+      "bind": "i18n_8",
+      "font_charset": "语言Language"
+    },
+    {
+      "type": "label",
+      "parent": 286,
+      "x": 244,
+      "y": 5,
+      "w": 170,
+      "h": 32,
+      "text": "中文",
+      "font_size": 20,
+      "fg_color": "#FFFFFF",
+      "name": "language_text",
+      "bind": "language_text",
+      "text_align": "right",
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
+    },
+    {
       "type": "container",
       "parent": -1,
       "x": 0,
@@ -3347,7 +3412,7 @@
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -3359,7 +3424,7 @@
     },
     {
       "type": "label",
-      "parent": 287,
+      "parent": 290,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -3371,18 +3436,21 @@
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 108,
       "y": 24,
       "w": 230,
       "h": 32,
       "text": "外观与提醒",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_9",
+      "bind": "i18n_9",
+      "font_charset": "外观与提醒Look & Alerts"
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 330,
       "y": 25,
       "w": 124,
@@ -3393,11 +3461,11 @@
       "name": "version",
       "bind": "version",
       "text_align": "right",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "container",
-      "parent": 286,
+      "parent": 289,
       "x": 24,
       "y": 80,
       "w": 432,
@@ -3407,18 +3475,21 @@
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 43,
       "y": 88,
       "w": 150,
       "h": 30,
       "text": "声音",
       "font_size": 22,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_10",
+      "bind": "i18n_10",
+      "font_charset": "声音Sound"
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 235,
       "y": 88,
       "w": 73,
@@ -3429,11 +3500,11 @@
       "name": "volume_text",
       "bind": "volume_text",
       "text_align": "right",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 326,
       "y": 83,
       "w": 110,
@@ -3445,7 +3516,7 @@
     },
     {
       "type": "label",
-      "parent": 294,
+      "parent": 297,
       "x": 0,
       "y": 0,
       "w": 110,
@@ -3456,11 +3527,11 @@
       "name": "sound_text",
       "bind": "sound_text",
       "text_align": "center",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "slider",
-      "parent": 286,
+      "parent": 289,
       "x": 43,
       "y": 143,
       "w": 278,
@@ -3478,7 +3549,7 @@
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 346,
       "y": 138,
       "w": 90,
@@ -3491,7 +3562,7 @@
     },
     {
       "type": "label",
-      "parent": 297,
+      "parent": 300,
       "x": 0,
       "y": 0,
       "w": 90,
@@ -3499,11 +3570,14 @@
       "text": "试听",
       "font_size": 18,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_11",
+      "bind": "i18n_11",
+      "font_charset": "试听Play"
     },
     {
       "type": "container",
-      "parent": 286,
+      "parent": 289,
       "x": 24,
       "y": 202,
       "w": 432,
@@ -3513,18 +3587,21 @@
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 43,
       "y": 214,
       "w": 170,
       "h": 30,
       "text": "震动",
       "font_size": 22,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_12",
+      "bind": "i18n_12",
+      "font_charset": "震动Haptics"
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 326,
       "y": 208,
       "w": 110,
@@ -3536,7 +3613,7 @@
     },
     {
       "type": "label",
-      "parent": 301,
+      "parent": 304,
       "x": 0,
       "y": 0,
       "w": 110,
@@ -3547,11 +3624,11 @@
       "name": "vibration_text",
       "bind": "vibration_text",
       "text_align": "center",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "container",
-      "parent": 286,
+      "parent": 289,
       "x": 24,
       "y": 268,
       "w": 432,
@@ -3561,18 +3638,21 @@
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 43,
       "y": 275,
       "w": 180,
       "h": 30,
       "text": "亮度",
       "font_size": 22,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_13",
+      "bind": "i18n_13",
+      "font_charset": "亮度Brightness"
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 326,
       "y": 275,
       "w": 110,
@@ -3583,11 +3663,11 @@
       "name": "brightness_text",
       "bind": "brightness_text",
       "text_align": "right",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "slider",
-      "parent": 286,
+      "parent": 289,
       "x": 43,
       "y": 318,
       "w": 393,
@@ -3605,7 +3685,7 @@
     },
     {
       "type": "container",
-      "parent": 286,
+      "parent": 289,
       "x": 24,
       "y": 370,
       "w": 432,
@@ -3615,18 +3695,21 @@
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 43,
       "y": 375,
       "w": 180,
       "h": 24,
       "text": "颜色",
       "font_size": 16,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_14",
+      "bind": "i18n_14",
+      "font_charset": "颜色Color"
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 54,
       "y": 404,
       "w": 52,
@@ -3637,7 +3720,7 @@
     },
     {
       "type": "container",
-      "parent": 309,
+      "parent": 312,
       "x": 4,
       "y": 2,
       "w": 44,
@@ -3651,7 +3734,7 @@
     },
     {
       "type": "container",
-      "parent": 309,
+      "parent": 312,
       "x": 6,
       "y": 4,
       "w": 40,
@@ -3661,7 +3744,7 @@
     },
     {
       "type": "container",
-      "parent": 309,
+      "parent": 312,
       "x": 8,
       "y": 6,
       "w": 36,
@@ -3671,7 +3754,7 @@
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 118,
       "y": 404,
       "w": 52,
@@ -3682,7 +3765,7 @@
     },
     {
       "type": "container",
-      "parent": 313,
+      "parent": 316,
       "x": 4,
       "y": 2,
       "w": 44,
@@ -3696,7 +3779,7 @@
     },
     {
       "type": "container",
-      "parent": 313,
+      "parent": 316,
       "x": 6,
       "y": 4,
       "w": 40,
@@ -3706,7 +3789,7 @@
     },
     {
       "type": "container",
-      "parent": 313,
+      "parent": 316,
       "x": 8,
       "y": 6,
       "w": 36,
@@ -3716,7 +3799,7 @@
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 182,
       "y": 404,
       "w": 52,
@@ -3727,7 +3810,7 @@
     },
     {
       "type": "container",
-      "parent": 317,
+      "parent": 320,
       "x": 4,
       "y": 2,
       "w": 44,
@@ -3741,7 +3824,7 @@
     },
     {
       "type": "container",
-      "parent": 317,
+      "parent": 320,
       "x": 6,
       "y": 4,
       "w": 40,
@@ -3751,7 +3834,7 @@
     },
     {
       "type": "container",
-      "parent": 317,
+      "parent": 320,
       "x": 8,
       "y": 6,
       "w": 36,
@@ -3761,7 +3844,7 @@
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 246,
       "y": 404,
       "w": 52,
@@ -3772,7 +3855,7 @@
     },
     {
       "type": "container",
-      "parent": 321,
+      "parent": 324,
       "x": 4,
       "y": 2,
       "w": 44,
@@ -3786,7 +3869,7 @@
     },
     {
       "type": "container",
-      "parent": 321,
+      "parent": 324,
       "x": 6,
       "y": 4,
       "w": 40,
@@ -3796,7 +3879,7 @@
     },
     {
       "type": "container",
-      "parent": 321,
+      "parent": 324,
       "x": 8,
       "y": 6,
       "w": 36,
@@ -3806,7 +3889,7 @@
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 310,
       "y": 404,
       "w": 52,
@@ -3817,7 +3900,7 @@
     },
     {
       "type": "container",
-      "parent": 325,
+      "parent": 328,
       "x": 4,
       "y": 2,
       "w": 44,
@@ -3831,7 +3914,7 @@
     },
     {
       "type": "container",
-      "parent": 325,
+      "parent": 328,
       "x": 6,
       "y": 4,
       "w": 40,
@@ -3841,7 +3924,7 @@
     },
     {
       "type": "container",
-      "parent": 325,
+      "parent": 328,
       "x": 8,
       "y": 6,
       "w": 36,
@@ -3851,7 +3934,7 @@
     },
     {
       "type": "button",
-      "parent": 286,
+      "parent": 289,
       "x": 374,
       "y": 404,
       "w": 52,
@@ -3862,7 +3945,7 @@
     },
     {
       "type": "container",
-      "parent": 329,
+      "parent": 332,
       "x": 4,
       "y": 2,
       "w": 44,
@@ -3876,7 +3959,7 @@
     },
     {
       "type": "container",
-      "parent": 329,
+      "parent": 332,
       "x": 6,
       "y": 4,
       "w": 40,
@@ -3886,7 +3969,7 @@
     },
     {
       "type": "container",
-      "parent": 329,
+      "parent": 332,
       "x": 8,
       "y": 6,
       "w": 36,
@@ -3896,7 +3979,7 @@
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 24,
       "y": 456,
       "w": 300,
@@ -3906,11 +3989,11 @@
       "fg_color": "#92999F",
       "name": "wireless_text",
       "bind": "wireless_text",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "label",
-      "parent": 286,
+      "parent": 289,
       "x": 326,
       "y": 456,
       "w": 130,
@@ -3921,7 +4004,7 @@
       "name": "settings_result",
       "bind": "settings_result",
       "text_align": "right",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "container",
@@ -3938,7 +4021,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -3950,7 +4033,7 @@
     },
     {
       "type": "label",
-      "parent": 336,
+      "parent": 339,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -3962,18 +4045,21 @@
     },
     {
       "type": "label",
-      "parent": 335,
+      "parent": 338,
       "x": 108,
       "y": 24,
       "w": 330,
       "h": 32,
       "text": "终端",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_15",
+      "bind": "i18n_15",
+      "font_charset": "终端Macs"
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 24,
       "y": 84,
       "w": 138,
@@ -3986,7 +4072,7 @@
     },
     {
       "type": "label",
-      "parent": 339,
+      "parent": 342,
       "x": 0,
       "y": 0,
       "w": 138,
@@ -3994,11 +4080,14 @@
       "text": "自动跟随",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_16",
+      "bind": "i18n_16",
+      "font_charset": "自动跟随Auto"
     },
     {
       "type": "container",
-      "parent": 339,
+      "parent": 342,
       "x": 16,
       "y": 39,
       "w": 106,
@@ -4012,7 +4101,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 171,
       "y": 84,
       "w": 138,
@@ -4025,7 +4114,7 @@
     },
     {
       "type": "label",
-      "parent": 342,
+      "parent": 345,
       "x": 0,
       "y": 0,
       "w": 138,
@@ -4033,11 +4122,14 @@
       "text": "固定终端",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_17",
+      "bind": "i18n_17",
+      "font_charset": "固定终端Fixed"
     },
     {
       "type": "container",
-      "parent": 342,
+      "parent": 345,
       "x": 16,
       "y": 39,
       "w": 106,
@@ -4051,7 +4143,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 318,
       "y": 84,
       "w": 138,
@@ -4064,7 +4156,7 @@
     },
     {
       "type": "label",
-      "parent": 345,
+      "parent": 348,
       "x": 0,
       "y": 0,
       "w": 138,
@@ -4072,11 +4164,14 @@
       "text": "全部汇总",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_18",
+      "bind": "i18n_18",
+      "font_charset": "全部汇总All"
     },
     {
       "type": "container",
-      "parent": 345,
+      "parent": 348,
       "x": 16,
       "y": 39,
       "w": 106,
@@ -4090,7 +4185,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 24,
       "y": 142,
       "w": 432,
@@ -4102,7 +4197,7 @@
     },
     {
       "type": "container",
-      "parent": 348,
+      "parent": 351,
       "x": 0,
       "y": 0,
       "w": 4,
@@ -4115,7 +4210,7 @@
     },
     {
       "type": "label",
-      "parent": 348,
+      "parent": 351,
       "x": 18,
       "y": 7,
       "w": 396,
@@ -4129,7 +4224,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 24,
       "y": 204,
       "w": 432,
@@ -4141,7 +4236,7 @@
     },
     {
       "type": "container",
-      "parent": 351,
+      "parent": 354,
       "x": 0,
       "y": 0,
       "w": 4,
@@ -4154,7 +4249,7 @@
     },
     {
       "type": "label",
-      "parent": 351,
+      "parent": 354,
       "x": 18,
       "y": 7,
       "w": 396,
@@ -4168,7 +4263,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 24,
       "y": 266,
       "w": 432,
@@ -4180,7 +4275,7 @@
     },
     {
       "type": "container",
-      "parent": 354,
+      "parent": 357,
       "x": 0,
       "y": 0,
       "w": 4,
@@ -4193,7 +4288,7 @@
     },
     {
       "type": "label",
-      "parent": 354,
+      "parent": 357,
       "x": 18,
       "y": 7,
       "w": 396,
@@ -4207,7 +4302,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 24,
       "y": 328,
       "w": 432,
@@ -4219,7 +4314,7 @@
     },
     {
       "type": "container",
-      "parent": 357,
+      "parent": 360,
       "x": 0,
       "y": 0,
       "w": 4,
@@ -4232,7 +4327,7 @@
     },
     {
       "type": "label",
-      "parent": 357,
+      "parent": 360,
       "x": 18,
       "y": 7,
       "w": 396,
@@ -4246,7 +4341,7 @@
     },
     {
       "type": "label",
-      "parent": 335,
+      "parent": 338,
       "x": 24,
       "y": 385,
       "w": 432,
@@ -4260,7 +4355,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 24,
       "y": 416,
       "w": 216,
@@ -4273,7 +4368,7 @@
     },
     {
       "type": "label",
-      "parent": 361,
+      "parent": 364,
       "x": 0,
       "y": 0,
       "w": 216,
@@ -4281,11 +4376,14 @@
       "text": "添加终端",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_19",
+      "bind": "i18n_19",
+      "font_charset": "添加终端Add Mac"
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 254,
       "y": 416,
       "w": 70,
@@ -4298,7 +4396,7 @@
     },
     {
       "type": "label",
-      "parent": 363,
+      "parent": 366,
       "x": 0,
       "y": 0,
       "w": 70,
@@ -4310,7 +4408,7 @@
     },
     {
       "type": "label",
-      "parent": 335,
+      "parent": 338,
       "x": 326,
       "y": 421,
       "w": 60,
@@ -4325,7 +4423,7 @@
     },
     {
       "type": "button",
-      "parent": 335,
+      "parent": 338,
       "x": 390,
       "y": 416,
       "w": 66,
@@ -4338,7 +4436,7 @@
     },
     {
       "type": "label",
-      "parent": 366,
+      "parent": 369,
       "x": 0,
       "y": 0,
       "w": 66,
@@ -4363,7 +4461,7 @@
     },
     {
       "type": "button",
-      "parent": 368,
+      "parent": 371,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -4375,7 +4473,7 @@
     },
     {
       "type": "label",
-      "parent": 369,
+      "parent": 372,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -4387,7 +4485,7 @@
     },
     {
       "type": "label",
-      "parent": 368,
+      "parent": 371,
       "x": 108,
       "y": 24,
       "w": 330,
@@ -4398,7 +4496,7 @@
     },
     {
       "type": "label",
-      "parent": 368,
+      "parent": 371,
       "x": 24,
       "y": 80,
       "w": 432,
@@ -4412,7 +4510,7 @@
     },
     {
       "type": "button",
-      "parent": 368,
+      "parent": 371,
       "x": 24,
       "y": 130,
       "w": 432,
@@ -4424,7 +4522,7 @@
     },
     {
       "type": "label",
-      "parent": 373,
+      "parent": 376,
       "x": 18,
       "y": 7,
       "w": 396,
@@ -4438,7 +4536,7 @@
     },
     {
       "type": "button",
-      "parent": 368,
+      "parent": 371,
       "x": 24,
       "y": 192,
       "w": 432,
@@ -4450,7 +4548,7 @@
     },
     {
       "type": "label",
-      "parent": 375,
+      "parent": 378,
       "x": 18,
       "y": 7,
       "w": 396,
@@ -4464,7 +4562,7 @@
     },
     {
       "type": "button",
-      "parent": 368,
+      "parent": 371,
       "x": 24,
       "y": 254,
       "w": 432,
@@ -4476,7 +4574,7 @@
     },
     {
       "type": "label",
-      "parent": 377,
+      "parent": 380,
       "x": 18,
       "y": 7,
       "w": 396,
@@ -4490,7 +4588,7 @@
     },
     {
       "type": "button",
-      "parent": 368,
+      "parent": 371,
       "x": 24,
       "y": 316,
       "w": 432,
@@ -4502,7 +4600,7 @@
     },
     {
       "type": "label",
-      "parent": 379,
+      "parent": 382,
       "x": 18,
       "y": 7,
       "w": 396,
@@ -4516,7 +4614,7 @@
     },
     {
       "type": "label",
-      "parent": 368,
+      "parent": 371,
       "x": 24,
       "y": 375,
       "w": 432,
@@ -4530,7 +4628,7 @@
     },
     {
       "type": "button",
-      "parent": 368,
+      "parent": 371,
       "x": 24,
       "y": 416,
       "w": 216,
@@ -4543,7 +4641,7 @@
     },
     {
       "type": "label",
-      "parent": 382,
+      "parent": 385,
       "x": 0,
       "y": 0,
       "w": 216,
@@ -4551,11 +4649,14 @@
       "text": "添加网络",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_20",
+      "bind": "i18n_20",
+      "font_charset": "添加网络Add Wi-Fi"
     },
     {
       "type": "button",
-      "parent": 368,
+      "parent": 371,
       "x": 254,
       "y": 416,
       "w": 70,
@@ -4568,7 +4669,7 @@
     },
     {
       "type": "label",
-      "parent": 384,
+      "parent": 387,
       "x": 0,
       "y": 0,
       "w": 70,
@@ -4580,7 +4681,7 @@
     },
     {
       "type": "label",
-      "parent": 368,
+      "parent": 371,
       "x": 326,
       "y": 421,
       "w": 60,
@@ -4595,7 +4696,7 @@
     },
     {
       "type": "button",
-      "parent": 368,
+      "parent": 371,
       "x": 390,
       "y": 416,
       "w": 66,
@@ -4608,7 +4709,7 @@
     },
     {
       "type": "label",
-      "parent": 387,
+      "parent": 390,
       "x": 0,
       "y": 0,
       "w": 66,
@@ -4633,7 +4734,7 @@
     },
     {
       "type": "button",
-      "parent": 389,
+      "parent": 392,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -4645,7 +4746,7 @@
     },
     {
       "type": "label",
-      "parent": 390,
+      "parent": 393,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -4657,18 +4758,21 @@
     },
     {
       "type": "label",
-      "parent": 389,
+      "parent": 392,
       "x": 108,
       "y": 24,
       "w": 330,
       "h": 32,
       "text": "网络",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_21",
+      "bind": "i18n_21",
+      "font_charset": "网络Network"
     },
     {
       "type": "label",
-      "parent": 389,
+      "parent": 392,
       "x": 24,
       "y": 108,
       "w": 432,
@@ -4683,7 +4787,7 @@
     },
     {
       "type": "label",
-      "parent": 389,
+      "parent": 392,
       "x": 24,
       "y": 176,
       "w": 432,
@@ -4698,7 +4802,7 @@
     },
     {
       "type": "button",
-      "parent": 389,
+      "parent": 392,
       "x": 24,
       "y": 234,
       "w": 432,
@@ -4711,7 +4815,7 @@
     },
     {
       "type": "label",
-      "parent": 395,
+      "parent": 398,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -4719,11 +4823,14 @@
       "text": "连接此网络",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_22",
+      "bind": "i18n_22",
+      "font_charset": "连接此网络Connect"
     },
     {
       "type": "button",
-      "parent": 389,
+      "parent": 392,
       "x": 24,
       "y": 304,
       "w": 432,
@@ -4736,7 +4843,7 @@
     },
     {
       "type": "label",
-      "parent": 397,
+      "parent": 400,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -4744,11 +4851,14 @@
       "text": "设为首选",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_23",
+      "bind": "i18n_23",
+      "font_charset": "设为首选Set Preferred"
     },
     {
       "type": "button",
-      "parent": 389,
+      "parent": 392,
       "x": 24,
       "y": 374,
       "w": 432,
@@ -4761,7 +4871,7 @@
     },
     {
       "type": "label",
-      "parent": 399,
+      "parent": 402,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -4769,7 +4879,10 @@
       "text": "删除网络",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_24",
+      "bind": "i18n_24",
+      "font_charset": "删除网络Delete Network"
     },
     {
       "type": "container",
@@ -4786,7 +4899,7 @@
     },
     {
       "type": "button",
-      "parent": 401,
+      "parent": 404,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -4798,7 +4911,7 @@
     },
     {
       "type": "label",
-      "parent": 402,
+      "parent": 405,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -4810,18 +4923,21 @@
     },
     {
       "type": "label",
-      "parent": 401,
+      "parent": 404,
       "x": 108,
       "y": 24,
       "w": 330,
       "h": 32,
       "text": "删除网络",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_25",
+      "bind": "i18n_25",
+      "font_charset": "删除网络Delete Network"
     },
     {
       "type": "label",
-      "parent": 401,
+      "parent": 404,
       "x": 24,
       "y": 132,
       "w": 432,
@@ -4836,7 +4952,7 @@
     },
     {
       "type": "label",
-      "parent": 401,
+      "parent": 404,
       "x": 24,
       "y": 215,
       "w": 432,
@@ -4844,11 +4960,14 @@
       "text": "删除后将不再自动连接此网络",
       "font_size": 20,
       "fg_color": "#92999F",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_26",
+      "bind": "i18n_26",
+      "font_charset": "删除后将不再自动连接此网络This network will no longer auto-connect"
     },
     {
       "type": "button",
-      "parent": 401,
+      "parent": 404,
       "x": 24,
       "y": 350,
       "w": 204,
@@ -4861,7 +4980,7 @@
     },
     {
       "type": "label",
-      "parent": 407,
+      "parent": 410,
       "x": 0,
       "y": 0,
       "w": 204,
@@ -4869,11 +4988,14 @@
       "text": "取消",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_27",
+      "bind": "i18n_27",
+      "font_charset": "取消Cancel"
     },
     {
       "type": "button",
-      "parent": 401,
+      "parent": 404,
       "x": 252,
       "y": 350,
       "w": 204,
@@ -4886,7 +5008,7 @@
     },
     {
       "type": "label",
-      "parent": 409,
+      "parent": 412,
       "x": 0,
       "y": 0,
       "w": 204,
@@ -4894,7 +5016,10 @@
       "text": "删除",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_28",
+      "bind": "i18n_28",
+      "font_charset": "删除Delete"
     },
     {
       "type": "container",
@@ -4911,7 +5036,7 @@
     },
     {
       "type": "button",
-      "parent": 411,
+      "parent": 414,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -4923,7 +5048,7 @@
     },
     {
       "type": "label",
-      "parent": 412,
+      "parent": 415,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -4935,18 +5060,21 @@
     },
     {
       "type": "label",
-      "parent": 411,
+      "parent": 414,
       "x": 108,
       "y": 24,
       "w": 330,
       "h": 32,
       "text": "添加终端",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_29",
+      "bind": "i18n_29",
+      "font_charset": "添加终端Add Mac"
     },
     {
       "type": "label",
-      "parent": 411,
+      "parent": 414,
       "x": 24,
       "y": 112,
       "w": 432,
@@ -4954,11 +5082,14 @@
       "text": "在另一台 Mac 打开采集端\n输入下面的配对码",
       "font_size": 20,
       "fg_color": "#92999F",
-      "text_align": "center"
+      "text_align": "left",
+      "name": "i18n_30",
+      "bind": "i18n_30",
+      "font_charset": "在另一台 Mac 打开采集端\n输入下面的配对码Open the Mac companion\nand enter this pairing code"
     },
     {
       "type": "label",
-      "parent": 411,
+      "parent": 414,
       "x": 24,
       "y": 210,
       "w": 432,
@@ -4969,11 +5100,11 @@
       "name": "enrollment_code",
       "bind": "enrollment_code",
       "text_align": "center",
-      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB"
+      "font_charset": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~最近交互本周剩余额度小时距重置天分刷新中等待连接离线空闲正在工作你确认任务已完成失败刚项设置音量提示音试听震动亮度开启关闭无线更新就绪配对未保存声音颜色按终端查看全部USB中文"
     },
     {
       "type": "label",
-      "parent": 411,
+      "parent": 414,
       "x": 24,
       "y": 282,
       "w": 432,
@@ -4981,11 +5112,14 @@
       "text": "10 分钟有效，仅可使用一次",
       "font_size": 18,
       "fg_color": "#92999F",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_31",
+      "bind": "i18n_31",
+      "font_charset": "10 分钟有效，仅可使用一次Valid for 10 min · one use"
     },
     {
       "type": "label",
-      "parent": 411,
+      "parent": 414,
       "x": 24,
       "y": 330,
       "w": 432,
@@ -5000,7 +5134,7 @@
     },
     {
       "type": "button",
-      "parent": 411,
+      "parent": 414,
       "x": 24,
       "y": 402,
       "w": 432,
@@ -5013,7 +5147,7 @@
     },
     {
       "type": "label",
-      "parent": 419,
+      "parent": 422,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -5021,7 +5155,10 @@
       "text": "重新生成",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_32",
+      "bind": "i18n_32",
+      "font_charset": "重新生成New Code"
     },
     {
       "type": "container",
@@ -5038,7 +5175,7 @@
     },
     {
       "type": "button",
-      "parent": 421,
+      "parent": 424,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -5050,7 +5187,7 @@
     },
     {
       "type": "label",
-      "parent": 422,
+      "parent": 425,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -5062,18 +5199,21 @@
     },
     {
       "type": "label",
-      "parent": 421,
+      "parent": 424,
       "x": 108,
       "y": 24,
       "w": 330,
       "h": 32,
       "text": "添加 Wi-Fi",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_33",
+      "bind": "i18n_33",
+      "font_charset": "添加 Wi-FiAdd Wi-Fi"
     },
     {
       "type": "label",
-      "parent": 421,
+      "parent": 424,
       "x": 24,
       "y": 95,
       "w": 432,
@@ -5081,11 +5221,14 @@
       "text": "用手机连接以下热点",
       "font_size": 20,
       "fg_color": "#92999F",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_34",
+      "bind": "i18n_34",
+      "font_charset": "用手机连接以下热点Connect your phone to this hotspot"
     },
     {
       "type": "label",
-      "parent": 421,
+      "parent": 424,
       "x": 24,
       "y": 137,
       "w": 432,
@@ -5100,7 +5243,7 @@
     },
     {
       "type": "label",
-      "parent": 421,
+      "parent": 424,
       "x": 24,
       "y": 183,
       "w": 432,
@@ -5115,7 +5258,7 @@
     },
     {
       "type": "label",
-      "parent": 421,
+      "parent": 424,
       "x": 24,
       "y": 242,
       "w": 432,
@@ -5123,11 +5266,14 @@
       "text": "然后在浏览器打开",
       "font_size": 18,
       "fg_color": "#92999F",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_35",
+      "bind": "i18n_35",
+      "font_charset": "然后在浏览器打开Then open in your browser"
     },
     {
       "type": "label",
-      "parent": 421,
+      "parent": 424,
       "x": 24,
       "y": 278,
       "w": 432,
@@ -5139,7 +5285,7 @@
     },
     {
       "type": "label",
-      "parent": 421,
+      "parent": 424,
       "x": 24,
       "y": 326,
       "w": 432,
@@ -5154,7 +5300,7 @@
     },
     {
       "type": "button",
-      "parent": 421,
+      "parent": 424,
       "x": 24,
       "y": 402,
       "w": 432,
@@ -5167,7 +5313,7 @@
     },
     {
       "type": "label",
-      "parent": 431,
+      "parent": 434,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -5175,7 +5321,10 @@
       "text": "关闭热点",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_36",
+      "bind": "i18n_36",
+      "font_charset": "关闭热点Close Hotspot"
     },
     {
       "type": "container",
@@ -5192,7 +5341,7 @@
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -5204,7 +5353,7 @@
     },
     {
       "type": "label",
-      "parent": 434,
+      "parent": 437,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -5216,18 +5365,21 @@
     },
     {
       "type": "label",
-      "parent": 433,
+      "parent": 436,
       "x": 108,
       "y": 24,
       "w": 330,
       "h": 32,
       "text": "附近 Wi-Fi",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_37",
+      "bind": "i18n_37",
+      "font_charset": "附近 Wi-FiNearby Wi-Fi"
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 24,
       "y": 77,
       "w": 432,
@@ -5240,7 +5392,7 @@
     },
     {
       "type": "label",
-      "parent": 437,
+      "parent": 440,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -5252,7 +5404,7 @@
     },
     {
       "type": "label",
-      "parent": 437,
+      "parent": 440,
       "x": 14,
       "y": 4,
       "w": 400,
@@ -5266,7 +5418,7 @@
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 24,
       "y": 134,
       "w": 432,
@@ -5279,7 +5431,7 @@
     },
     {
       "type": "label",
-      "parent": 440,
+      "parent": 443,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -5291,7 +5443,7 @@
     },
     {
       "type": "label",
-      "parent": 440,
+      "parent": 443,
       "x": 14,
       "y": 4,
       "w": 400,
@@ -5305,7 +5457,7 @@
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 24,
       "y": 191,
       "w": 432,
@@ -5318,7 +5470,7 @@
     },
     {
       "type": "label",
-      "parent": 443,
+      "parent": 446,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -5330,7 +5482,7 @@
     },
     {
       "type": "label",
-      "parent": 443,
+      "parent": 446,
       "x": 14,
       "y": 4,
       "w": 400,
@@ -5344,7 +5496,7 @@
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 24,
       "y": 248,
       "w": 432,
@@ -5357,7 +5509,7 @@
     },
     {
       "type": "label",
-      "parent": 446,
+      "parent": 449,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -5369,7 +5521,7 @@
     },
     {
       "type": "label",
-      "parent": 446,
+      "parent": 449,
       "x": 14,
       "y": 4,
       "w": 400,
@@ -5383,7 +5535,7 @@
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 24,
       "y": 305,
       "w": 432,
@@ -5396,7 +5548,7 @@
     },
     {
       "type": "label",
-      "parent": 449,
+      "parent": 452,
       "x": 0,
       "y": 0,
       "w": 432,
@@ -5408,7 +5560,7 @@
     },
     {
       "type": "label",
-      "parent": 449,
+      "parent": 452,
       "x": 14,
       "y": 4,
       "w": 400,
@@ -5422,7 +5574,7 @@
     },
     {
       "type": "label",
-      "parent": 433,
+      "parent": 436,
       "x": 24,
       "y": 365,
       "w": 432,
@@ -5436,7 +5588,7 @@
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 24,
       "y": 410,
       "w": 54,
@@ -5449,7 +5601,7 @@
     },
     {
       "type": "label",
-      "parent": 453,
+      "parent": 456,
       "x": 0,
       "y": 0,
       "w": 54,
@@ -5461,7 +5613,7 @@
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 86,
       "y": 410,
       "w": 54,
@@ -5474,7 +5626,7 @@
     },
     {
       "type": "label",
-      "parent": 455,
+      "parent": 458,
       "x": 0,
       "y": 0,
       "w": 54,
@@ -5486,7 +5638,7 @@
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 150,
       "y": 410,
       "w": 130,
@@ -5499,7 +5651,7 @@
     },
     {
       "type": "label",
-      "parent": 457,
+      "parent": 460,
       "x": 0,
       "y": 0,
       "w": 130,
@@ -5507,11 +5659,14 @@
       "text": "重新扫描",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_38",
+      "bind": "i18n_38",
+      "font_charset": "重新扫描Scan Again"
     },
     {
       "type": "button",
-      "parent": 433,
+      "parent": 436,
       "x": 290,
       "y": 410,
       "w": 166,
@@ -5524,7 +5679,7 @@
     },
     {
       "type": "label",
-      "parent": 459,
+      "parent": 462,
       "x": 0,
       "y": 0,
       "w": 166,
@@ -5532,7 +5687,10 @@
       "text": "手动输入",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_39",
+      "bind": "i18n_39",
+      "font_charset": "手动输入Enter Manually"
     },
     {
       "type": "container",
@@ -5549,7 +5707,7 @@
     },
     {
       "type": "button",
-      "parent": 461,
+      "parent": 464,
       "x": 16,
       "y": 12,
       "w": 74,
@@ -5561,7 +5719,7 @@
     },
     {
       "type": "label",
-      "parent": 462,
+      "parent": 465,
       "x": 0,
       "y": 0,
       "w": 74,
@@ -5573,18 +5731,21 @@
     },
     {
       "type": "label",
-      "parent": 461,
+      "parent": 464,
       "x": 108,
       "y": 24,
       "w": 330,
       "h": 32,
       "text": "连接 Wi-Fi",
       "font_size": 26,
-      "fg_color": "#FFFFFF"
+      "fg_color": "#FFFFFF",
+      "name": "i18n_40",
+      "bind": "i18n_40",
+      "font_charset": "连接 Wi-FiConnect Wi-Fi"
     },
     {
       "type": "label",
-      "parent": 461,
+      "parent": 464,
       "x": 24,
       "y": 72,
       "w": 432,
@@ -5598,7 +5759,7 @@
     },
     {
       "type": "label",
-      "parent": 461,
+      "parent": 464,
       "x": 24,
       "y": 112,
       "w": 350,
@@ -5612,7 +5773,7 @@
     },
     {
       "type": "button",
-      "parent": 461,
+      "parent": 464,
       "x": 378,
       "y": 110,
       "w": 78,
@@ -5625,7 +5786,7 @@
     },
     {
       "type": "label",
-      "parent": 467,
+      "parent": 470,
       "x": 0,
       "y": 0,
       "w": 78,
@@ -5637,7 +5798,7 @@
     },
     {
       "type": "label",
-      "parent": 467,
+      "parent": 470,
       "x": 0,
       "y": 0,
       "w": 78,
@@ -5652,7 +5813,7 @@
     },
     {
       "type": "label",
-      "parent": 461,
+      "parent": 464,
       "x": 24,
       "y": 155,
       "w": 432,
@@ -5666,7 +5827,7 @@
     },
     {
       "type": "container",
-      "parent": 461,
+      "parent": 464,
       "x": 0,
       "y": 199,
       "w": 480,
@@ -5679,7 +5840,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 4,
       "y": 4,
       "w": 44,
@@ -5691,7 +5852,7 @@
     },
     {
       "type": "label",
-      "parent": 472,
+      "parent": 475,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5703,7 +5864,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 52,
       "y": 4,
       "w": 44,
@@ -5715,7 +5876,7 @@
     },
     {
       "type": "label",
-      "parent": 474,
+      "parent": 477,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5727,7 +5888,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 100,
       "y": 4,
       "w": 44,
@@ -5739,7 +5900,7 @@
     },
     {
       "type": "label",
-      "parent": 476,
+      "parent": 479,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5751,7 +5912,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 148,
       "y": 4,
       "w": 44,
@@ -5763,7 +5924,7 @@
     },
     {
       "type": "label",
-      "parent": 478,
+      "parent": 481,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5775,7 +5936,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 196,
       "y": 4,
       "w": 44,
@@ -5787,7 +5948,7 @@
     },
     {
       "type": "label",
-      "parent": 480,
+      "parent": 483,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5799,7 +5960,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 244,
       "y": 4,
       "w": 44,
@@ -5811,7 +5972,7 @@
     },
     {
       "type": "label",
-      "parent": 482,
+      "parent": 485,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5823,7 +5984,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 292,
       "y": 4,
       "w": 44,
@@ -5835,7 +5996,7 @@
     },
     {
       "type": "label",
-      "parent": 484,
+      "parent": 487,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5847,7 +6008,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 340,
       "y": 4,
       "w": 44,
@@ -5859,7 +6020,7 @@
     },
     {
       "type": "label",
-      "parent": 486,
+      "parent": 489,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5871,7 +6032,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 388,
       "y": 4,
       "w": 44,
@@ -5883,7 +6044,7 @@
     },
     {
       "type": "label",
-      "parent": 488,
+      "parent": 491,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5895,7 +6056,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 436,
       "y": 4,
       "w": 44,
@@ -5907,7 +6068,7 @@
     },
     {
       "type": "label",
-      "parent": 490,
+      "parent": 493,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5919,7 +6080,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 4,
       "y": 48,
       "w": 44,
@@ -5931,7 +6092,7 @@
     },
     {
       "type": "label",
-      "parent": 492,
+      "parent": 495,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5943,7 +6104,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 52,
       "y": 48,
       "w": 44,
@@ -5955,7 +6116,7 @@
     },
     {
       "type": "label",
-      "parent": 494,
+      "parent": 497,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5967,7 +6128,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 100,
       "y": 48,
       "w": 44,
@@ -5979,7 +6140,7 @@
     },
     {
       "type": "label",
-      "parent": 496,
+      "parent": 499,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -5991,7 +6152,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 148,
       "y": 48,
       "w": 44,
@@ -6003,7 +6164,7 @@
     },
     {
       "type": "label",
-      "parent": 498,
+      "parent": 501,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6015,7 +6176,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 196,
       "y": 48,
       "w": 44,
@@ -6027,7 +6188,7 @@
     },
     {
       "type": "label",
-      "parent": 500,
+      "parent": 503,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6039,7 +6200,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 244,
       "y": 48,
       "w": 44,
@@ -6051,7 +6212,7 @@
     },
     {
       "type": "label",
-      "parent": 502,
+      "parent": 505,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6063,7 +6224,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 292,
       "y": 48,
       "w": 44,
@@ -6075,7 +6236,7 @@
     },
     {
       "type": "label",
-      "parent": 504,
+      "parent": 507,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6087,7 +6248,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 340,
       "y": 48,
       "w": 44,
@@ -6099,7 +6260,7 @@
     },
     {
       "type": "label",
-      "parent": 506,
+      "parent": 509,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6111,7 +6272,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 388,
       "y": 48,
       "w": 44,
@@ -6123,7 +6284,7 @@
     },
     {
       "type": "label",
-      "parent": 508,
+      "parent": 511,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6135,7 +6296,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 436,
       "y": 48,
       "w": 44,
@@ -6147,7 +6308,7 @@
     },
     {
       "type": "label",
-      "parent": 510,
+      "parent": 513,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6159,7 +6320,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 4,
       "y": 92,
       "w": 44,
@@ -6171,7 +6332,7 @@
     },
     {
       "type": "label",
-      "parent": 512,
+      "parent": 515,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6183,7 +6344,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 52,
       "y": 92,
       "w": 44,
@@ -6195,7 +6356,7 @@
     },
     {
       "type": "label",
-      "parent": 514,
+      "parent": 517,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6207,7 +6368,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 100,
       "y": 92,
       "w": 44,
@@ -6219,7 +6380,7 @@
     },
     {
       "type": "label",
-      "parent": 516,
+      "parent": 519,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6231,7 +6392,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 148,
       "y": 92,
       "w": 44,
@@ -6243,7 +6404,7 @@
     },
     {
       "type": "label",
-      "parent": 518,
+      "parent": 521,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6255,7 +6416,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 196,
       "y": 92,
       "w": 44,
@@ -6267,7 +6428,7 @@
     },
     {
       "type": "label",
-      "parent": 520,
+      "parent": 523,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6279,7 +6440,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 244,
       "y": 92,
       "w": 44,
@@ -6291,7 +6452,7 @@
     },
     {
       "type": "label",
-      "parent": 522,
+      "parent": 525,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6303,7 +6464,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 292,
       "y": 92,
       "w": 44,
@@ -6315,7 +6476,7 @@
     },
     {
       "type": "label",
-      "parent": 524,
+      "parent": 527,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6327,7 +6488,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 340,
       "y": 92,
       "w": 44,
@@ -6339,7 +6500,7 @@
     },
     {
       "type": "label",
-      "parent": 526,
+      "parent": 529,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6351,7 +6512,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 388,
       "y": 92,
       "w": 44,
@@ -6363,7 +6524,7 @@
     },
     {
       "type": "label",
-      "parent": 528,
+      "parent": 531,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6375,7 +6536,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 436,
       "y": 92,
       "w": 44,
@@ -6387,7 +6548,7 @@
     },
     {
       "type": "label",
-      "parent": 530,
+      "parent": 533,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6399,7 +6560,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 4,
       "y": 136,
       "w": 44,
@@ -6411,7 +6572,7 @@
     },
     {
       "type": "label",
-      "parent": 532,
+      "parent": 535,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6423,7 +6584,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 52,
       "y": 136,
       "w": 44,
@@ -6435,7 +6596,7 @@
     },
     {
       "type": "label",
-      "parent": 534,
+      "parent": 537,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6447,7 +6608,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 100,
       "y": 136,
       "w": 44,
@@ -6459,7 +6620,7 @@
     },
     {
       "type": "label",
-      "parent": 536,
+      "parent": 539,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6471,7 +6632,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 148,
       "y": 136,
       "w": 44,
@@ -6483,7 +6644,7 @@
     },
     {
       "type": "label",
-      "parent": 538,
+      "parent": 541,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6495,7 +6656,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 196,
       "y": 136,
       "w": 44,
@@ -6507,7 +6668,7 @@
     },
     {
       "type": "label",
-      "parent": 540,
+      "parent": 543,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6519,7 +6680,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 244,
       "y": 136,
       "w": 44,
@@ -6531,7 +6692,7 @@
     },
     {
       "type": "label",
-      "parent": 542,
+      "parent": 545,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6543,7 +6704,7 @@
     },
     {
       "type": "button",
-      "parent": 471,
+      "parent": 474,
       "x": 292,
       "y": 136,
       "w": 44,
@@ -6555,7 +6716,7 @@
     },
     {
       "type": "label",
-      "parent": 544,
+      "parent": 547,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6563,11 +6724,14 @@
       "text": "空格",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_41",
+      "bind": "i18n_41",
+      "font_charset": "空格Space"
     },
     {
       "type": "container",
-      "parent": 461,
+      "parent": 464,
       "x": 0,
       "y": 199,
       "w": 480,
@@ -6580,7 +6744,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 4,
       "y": 4,
       "w": 44,
@@ -6592,7 +6756,7 @@
     },
     {
       "type": "label",
-      "parent": 547,
+      "parent": 550,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6604,7 +6768,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 52,
       "y": 4,
       "w": 44,
@@ -6616,7 +6780,7 @@
     },
     {
       "type": "label",
-      "parent": 549,
+      "parent": 552,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6628,7 +6792,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 100,
       "y": 4,
       "w": 44,
@@ -6640,7 +6804,7 @@
     },
     {
       "type": "label",
-      "parent": 551,
+      "parent": 554,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6652,7 +6816,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 148,
       "y": 4,
       "w": 44,
@@ -6664,7 +6828,7 @@
     },
     {
       "type": "label",
-      "parent": 553,
+      "parent": 556,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6676,7 +6840,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 196,
       "y": 4,
       "w": 44,
@@ -6688,7 +6852,7 @@
     },
     {
       "type": "label",
-      "parent": 555,
+      "parent": 558,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6700,7 +6864,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 244,
       "y": 4,
       "w": 44,
@@ -6712,7 +6876,7 @@
     },
     {
       "type": "label",
-      "parent": 557,
+      "parent": 560,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6724,7 +6888,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 292,
       "y": 4,
       "w": 44,
@@ -6736,7 +6900,7 @@
     },
     {
       "type": "label",
-      "parent": 559,
+      "parent": 562,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6748,7 +6912,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 340,
       "y": 4,
       "w": 44,
@@ -6760,7 +6924,7 @@
     },
     {
       "type": "label",
-      "parent": 561,
+      "parent": 564,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6772,7 +6936,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 388,
       "y": 4,
       "w": 44,
@@ -6784,7 +6948,7 @@
     },
     {
       "type": "label",
-      "parent": 563,
+      "parent": 566,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6796,7 +6960,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 436,
       "y": 4,
       "w": 44,
@@ -6808,7 +6972,7 @@
     },
     {
       "type": "label",
-      "parent": 565,
+      "parent": 568,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6820,7 +6984,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 4,
       "y": 48,
       "w": 44,
@@ -6832,7 +6996,7 @@
     },
     {
       "type": "label",
-      "parent": 567,
+      "parent": 570,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6844,7 +7008,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 52,
       "y": 48,
       "w": 44,
@@ -6856,7 +7020,7 @@
     },
     {
       "type": "label",
-      "parent": 569,
+      "parent": 572,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6868,7 +7032,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 100,
       "y": 48,
       "w": 44,
@@ -6880,7 +7044,7 @@
     },
     {
       "type": "label",
-      "parent": 571,
+      "parent": 574,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6892,7 +7056,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 148,
       "y": 48,
       "w": 44,
@@ -6904,7 +7068,7 @@
     },
     {
       "type": "label",
-      "parent": 573,
+      "parent": 576,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6916,7 +7080,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 196,
       "y": 48,
       "w": 44,
@@ -6928,7 +7092,7 @@
     },
     {
       "type": "label",
-      "parent": 575,
+      "parent": 578,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6940,7 +7104,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 244,
       "y": 48,
       "w": 44,
@@ -6952,7 +7116,7 @@
     },
     {
       "type": "label",
-      "parent": 577,
+      "parent": 580,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6964,7 +7128,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 292,
       "y": 48,
       "w": 44,
@@ -6976,7 +7140,7 @@
     },
     {
       "type": "label",
-      "parent": 579,
+      "parent": 582,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -6988,7 +7152,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 340,
       "y": 48,
       "w": 44,
@@ -7000,7 +7164,7 @@
     },
     {
       "type": "label",
-      "parent": 581,
+      "parent": 584,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7012,7 +7176,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 388,
       "y": 48,
       "w": 44,
@@ -7024,7 +7188,7 @@
     },
     {
       "type": "label",
-      "parent": 583,
+      "parent": 586,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7036,7 +7200,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 436,
       "y": 48,
       "w": 44,
@@ -7048,7 +7212,7 @@
     },
     {
       "type": "label",
-      "parent": 585,
+      "parent": 588,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7060,7 +7224,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 4,
       "y": 92,
       "w": 44,
@@ -7072,7 +7236,7 @@
     },
     {
       "type": "label",
-      "parent": 587,
+      "parent": 590,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7084,7 +7248,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 52,
       "y": 92,
       "w": 44,
@@ -7096,7 +7260,7 @@
     },
     {
       "type": "label",
-      "parent": 589,
+      "parent": 592,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7108,7 +7272,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 100,
       "y": 92,
       "w": 44,
@@ -7120,7 +7284,7 @@
     },
     {
       "type": "label",
-      "parent": 591,
+      "parent": 594,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7132,7 +7296,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 148,
       "y": 92,
       "w": 44,
@@ -7144,7 +7308,7 @@
     },
     {
       "type": "label",
-      "parent": 593,
+      "parent": 596,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7156,7 +7320,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 196,
       "y": 92,
       "w": 44,
@@ -7168,7 +7332,7 @@
     },
     {
       "type": "label",
-      "parent": 595,
+      "parent": 598,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7180,7 +7344,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 244,
       "y": 92,
       "w": 44,
@@ -7192,7 +7356,7 @@
     },
     {
       "type": "label",
-      "parent": 597,
+      "parent": 600,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7204,7 +7368,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 292,
       "y": 92,
       "w": 44,
@@ -7216,7 +7380,7 @@
     },
     {
       "type": "label",
-      "parent": 599,
+      "parent": 602,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7228,7 +7392,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 340,
       "y": 92,
       "w": 44,
@@ -7240,7 +7404,7 @@
     },
     {
       "type": "label",
-      "parent": 601,
+      "parent": 604,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7252,7 +7416,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 388,
       "y": 92,
       "w": 44,
@@ -7264,7 +7428,7 @@
     },
     {
       "type": "label",
-      "parent": 603,
+      "parent": 606,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7276,7 +7440,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 436,
       "y": 92,
       "w": 44,
@@ -7288,7 +7452,7 @@
     },
     {
       "type": "label",
-      "parent": 605,
+      "parent": 608,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7300,7 +7464,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 4,
       "y": 136,
       "w": 44,
@@ -7312,7 +7476,7 @@
     },
     {
       "type": "label",
-      "parent": 607,
+      "parent": 610,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7324,7 +7488,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 52,
       "y": 136,
       "w": 44,
@@ -7336,7 +7500,7 @@
     },
     {
       "type": "label",
-      "parent": 609,
+      "parent": 612,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7348,7 +7512,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 100,
       "y": 136,
       "w": 44,
@@ -7360,7 +7524,7 @@
     },
     {
       "type": "label",
-      "parent": 611,
+      "parent": 614,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7372,7 +7536,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 148,
       "y": 136,
       "w": 44,
@@ -7384,7 +7548,7 @@
     },
     {
       "type": "label",
-      "parent": 613,
+      "parent": 616,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7396,7 +7560,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 196,
       "y": 136,
       "w": 44,
@@ -7408,7 +7572,7 @@
     },
     {
       "type": "label",
-      "parent": 615,
+      "parent": 618,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7420,7 +7584,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 244,
       "y": 136,
       "w": 44,
@@ -7432,7 +7596,7 @@
     },
     {
       "type": "label",
-      "parent": 617,
+      "parent": 620,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7444,7 +7608,7 @@
     },
     {
       "type": "button",
-      "parent": 546,
+      "parent": 549,
       "x": 292,
       "y": 136,
       "w": 44,
@@ -7456,7 +7620,7 @@
     },
     {
       "type": "label",
-      "parent": 619,
+      "parent": 622,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7464,11 +7628,14 @@
       "text": "空格",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_42",
+      "bind": "i18n_42",
+      "font_charset": "空格Space"
     },
     {
       "type": "container",
-      "parent": 461,
+      "parent": 464,
       "x": 0,
       "y": 199,
       "w": 480,
@@ -7481,7 +7648,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 4,
       "y": 4,
       "w": 44,
@@ -7493,7 +7660,7 @@
     },
     {
       "type": "label",
-      "parent": 622,
+      "parent": 625,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7505,7 +7672,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 52,
       "y": 4,
       "w": 44,
@@ -7517,7 +7684,7 @@
     },
     {
       "type": "label",
-      "parent": 624,
+      "parent": 627,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7529,7 +7696,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 100,
       "y": 4,
       "w": 44,
@@ -7541,7 +7708,7 @@
     },
     {
       "type": "label",
-      "parent": 626,
+      "parent": 629,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7553,7 +7720,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 148,
       "y": 4,
       "w": 44,
@@ -7565,7 +7732,7 @@
     },
     {
       "type": "label",
-      "parent": 628,
+      "parent": 631,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7577,7 +7744,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 196,
       "y": 4,
       "w": 44,
@@ -7589,7 +7756,7 @@
     },
     {
       "type": "label",
-      "parent": 630,
+      "parent": 633,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7601,7 +7768,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 244,
       "y": 4,
       "w": 44,
@@ -7613,7 +7780,7 @@
     },
     {
       "type": "label",
-      "parent": 632,
+      "parent": 635,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7625,7 +7792,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 292,
       "y": 4,
       "w": 44,
@@ -7637,7 +7804,7 @@
     },
     {
       "type": "label",
-      "parent": 634,
+      "parent": 637,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7649,7 +7816,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 340,
       "y": 4,
       "w": 44,
@@ -7661,7 +7828,7 @@
     },
     {
       "type": "label",
-      "parent": 636,
+      "parent": 639,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7673,7 +7840,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 388,
       "y": 4,
       "w": 44,
@@ -7685,7 +7852,7 @@
     },
     {
       "type": "label",
-      "parent": 638,
+      "parent": 641,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7697,7 +7864,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 436,
       "y": 4,
       "w": 44,
@@ -7709,7 +7876,7 @@
     },
     {
       "type": "label",
-      "parent": 640,
+      "parent": 643,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7721,7 +7888,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 4,
       "y": 48,
       "w": 44,
@@ -7733,7 +7900,7 @@
     },
     {
       "type": "label",
-      "parent": 642,
+      "parent": 645,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7745,7 +7912,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 52,
       "y": 48,
       "w": 44,
@@ -7757,7 +7924,7 @@
     },
     {
       "type": "label",
-      "parent": 644,
+      "parent": 647,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7769,7 +7936,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 100,
       "y": 48,
       "w": 44,
@@ -7781,7 +7948,7 @@
     },
     {
       "type": "label",
-      "parent": 646,
+      "parent": 649,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7793,7 +7960,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 148,
       "y": 48,
       "w": 44,
@@ -7805,7 +7972,7 @@
     },
     {
       "type": "label",
-      "parent": 648,
+      "parent": 651,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7817,7 +7984,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 196,
       "y": 48,
       "w": 44,
@@ -7829,7 +7996,7 @@
     },
     {
       "type": "label",
-      "parent": 650,
+      "parent": 653,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7841,7 +8008,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 244,
       "y": 48,
       "w": 44,
@@ -7853,7 +8020,7 @@
     },
     {
       "type": "label",
-      "parent": 652,
+      "parent": 655,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7865,7 +8032,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 292,
       "y": 48,
       "w": 44,
@@ -7877,7 +8044,7 @@
     },
     {
       "type": "label",
-      "parent": 654,
+      "parent": 657,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7889,7 +8056,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 340,
       "y": 48,
       "w": 44,
@@ -7901,7 +8068,7 @@
     },
     {
       "type": "label",
-      "parent": 656,
+      "parent": 659,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7913,7 +8080,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 388,
       "y": 48,
       "w": 44,
@@ -7925,7 +8092,7 @@
     },
     {
       "type": "label",
-      "parent": 658,
+      "parent": 661,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7937,7 +8104,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 436,
       "y": 48,
       "w": 44,
@@ -7949,7 +8116,7 @@
     },
     {
       "type": "label",
-      "parent": 660,
+      "parent": 663,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7961,7 +8128,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 4,
       "y": 92,
       "w": 44,
@@ -7973,7 +8140,7 @@
     },
     {
       "type": "label",
-      "parent": 662,
+      "parent": 665,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -7985,7 +8152,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 52,
       "y": 92,
       "w": 44,
@@ -7997,7 +8164,7 @@
     },
     {
       "type": "label",
-      "parent": 664,
+      "parent": 667,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8009,7 +8176,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 100,
       "y": 92,
       "w": 44,
@@ -8021,7 +8188,7 @@
     },
     {
       "type": "label",
-      "parent": 666,
+      "parent": 669,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8033,7 +8200,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 148,
       "y": 92,
       "w": 44,
@@ -8045,7 +8212,7 @@
     },
     {
       "type": "label",
-      "parent": 668,
+      "parent": 671,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8057,7 +8224,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 196,
       "y": 92,
       "w": 44,
@@ -8069,7 +8236,7 @@
     },
     {
       "type": "label",
-      "parent": 670,
+      "parent": 673,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8081,7 +8248,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 244,
       "y": 92,
       "w": 44,
@@ -8093,7 +8260,7 @@
     },
     {
       "type": "label",
-      "parent": 672,
+      "parent": 675,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8105,7 +8272,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 292,
       "y": 92,
       "w": 44,
@@ -8117,7 +8284,7 @@
     },
     {
       "type": "label",
-      "parent": 674,
+      "parent": 677,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8129,7 +8296,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 340,
       "y": 92,
       "w": 44,
@@ -8141,7 +8308,7 @@
     },
     {
       "type": "label",
-      "parent": 676,
+      "parent": 679,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8153,7 +8320,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 388,
       "y": 92,
       "w": 44,
@@ -8165,7 +8332,7 @@
     },
     {
       "type": "label",
-      "parent": 678,
+      "parent": 681,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8177,7 +8344,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 436,
       "y": 92,
       "w": 44,
@@ -8189,7 +8356,7 @@
     },
     {
       "type": "label",
-      "parent": 680,
+      "parent": 683,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8201,7 +8368,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 4,
       "y": 136,
       "w": 44,
@@ -8213,7 +8380,7 @@
     },
     {
       "type": "label",
-      "parent": 682,
+      "parent": 685,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8225,7 +8392,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 52,
       "y": 136,
       "w": 44,
@@ -8237,7 +8404,7 @@
     },
     {
       "type": "label",
-      "parent": 684,
+      "parent": 687,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8249,7 +8416,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 100,
       "y": 136,
       "w": 44,
@@ -8261,7 +8428,7 @@
     },
     {
       "type": "label",
-      "parent": 686,
+      "parent": 689,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8273,7 +8440,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 148,
       "y": 136,
       "w": 44,
@@ -8285,7 +8452,7 @@
     },
     {
       "type": "label",
-      "parent": 688,
+      "parent": 691,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8297,7 +8464,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 196,
       "y": 136,
       "w": 44,
@@ -8309,7 +8476,7 @@
     },
     {
       "type": "label",
-      "parent": 690,
+      "parent": 693,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8321,7 +8488,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 244,
       "y": 136,
       "w": 44,
@@ -8333,7 +8500,7 @@
     },
     {
       "type": "label",
-      "parent": 692,
+      "parent": 695,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8345,7 +8512,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 292,
       "y": 136,
       "w": 44,
@@ -8357,7 +8524,7 @@
     },
     {
       "type": "label",
-      "parent": 694,
+      "parent": 697,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8369,7 +8536,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 340,
       "y": 136,
       "w": 44,
@@ -8381,7 +8548,7 @@
     },
     {
       "type": "label",
-      "parent": 696,
+      "parent": 699,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8393,7 +8560,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 388,
       "y": 136,
       "w": 44,
@@ -8405,7 +8572,7 @@
     },
     {
       "type": "label",
-      "parent": 698,
+      "parent": 701,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8417,7 +8584,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 436,
       "y": 136,
       "w": 44,
@@ -8429,7 +8596,7 @@
     },
     {
       "type": "label",
-      "parent": 700,
+      "parent": 703,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8441,7 +8608,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 4,
       "y": 180,
       "w": 44,
@@ -8453,7 +8620,7 @@
     },
     {
       "type": "label",
-      "parent": 702,
+      "parent": 705,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8465,7 +8632,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 52,
       "y": 180,
       "w": 44,
@@ -8477,7 +8644,7 @@
     },
     {
       "type": "label",
-      "parent": 704,
+      "parent": 707,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8489,7 +8656,7 @@
     },
     {
       "type": "button",
-      "parent": 621,
+      "parent": 624,
       "x": 100,
       "y": 180,
       "w": 44,
@@ -8501,7 +8668,7 @@
     },
     {
       "type": "label",
-      "parent": 706,
+      "parent": 709,
       "x": 0,
       "y": 0,
       "w": 44,
@@ -8509,11 +8676,14 @@
       "text": "空格",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_43",
+      "bind": "i18n_43",
+      "font_charset": "空格Space"
     },
     {
       "type": "button",
-      "parent": 461,
+      "parent": 464,
       "x": 4,
       "y": 427,
       "w": 65,
@@ -8526,7 +8696,7 @@
     },
     {
       "type": "label",
-      "parent": 708,
+      "parent": 711,
       "x": 0,
       "y": 0,
       "w": 65,
@@ -8538,7 +8708,7 @@
     },
     {
       "type": "button",
-      "parent": 461,
+      "parent": 464,
       "x": 73,
       "y": 427,
       "w": 65,
@@ -8551,7 +8721,7 @@
     },
     {
       "type": "label",
-      "parent": 710,
+      "parent": 713,
       "x": 0,
       "y": 0,
       "w": 65,
@@ -8563,7 +8733,7 @@
     },
     {
       "type": "button",
-      "parent": 461,
+      "parent": 464,
       "x": 142,
       "y": 427,
       "w": 75,
@@ -8576,7 +8746,7 @@
     },
     {
       "type": "label",
-      "parent": 712,
+      "parent": 715,
       "x": 0,
       "y": 0,
       "w": 75,
@@ -8588,7 +8758,7 @@
     },
     {
       "type": "button",
-      "parent": 461,
+      "parent": 464,
       "x": 221,
       "y": 427,
       "w": 92,
@@ -8601,7 +8771,7 @@
     },
     {
       "type": "label",
-      "parent": 714,
+      "parent": 717,
       "x": 0,
       "y": 0,
       "w": 92,
@@ -8609,11 +8779,14 @@
       "text": "删除",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_44",
+      "bind": "i18n_44",
+      "font_charset": "删除Delete"
     },
     {
       "type": "button",
-      "parent": 461,
+      "parent": 464,
       "x": 317,
       "y": 427,
       "w": 159,
@@ -8626,7 +8799,7 @@
     },
     {
       "type": "label",
-      "parent": 716,
+      "parent": 719,
       "x": 0,
       "y": 0,
       "w": 159,
@@ -8634,7 +8807,10 @@
       "text": "连接 / OK",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_45",
+      "bind": "i18n_45",
+      "font_charset": "连接 / OKConnect / OK"
     },
     {
       "type": "container",
@@ -8651,7 +8827,7 @@
     },
     {
       "type": "button",
-      "parent": 718,
+      "parent": 721,
       "x": 16,
       "y": 12,
       "w": 64,
@@ -8664,7 +8840,7 @@
     },
     {
       "type": "label",
-      "parent": 719,
+      "parent": 722,
       "x": 0,
       "y": 0,
       "w": 64,
@@ -8676,7 +8852,7 @@
     },
     {
       "type": "label",
-      "parent": 718,
+      "parent": 721,
       "x": 96,
       "y": 22,
       "w": 290,
@@ -8690,7 +8866,7 @@
     },
     {
       "type": "label",
-      "parent": 718,
+      "parent": 721,
       "x": 24,
       "y": 78,
       "w": 432,
@@ -8705,7 +8881,7 @@
     },
     {
       "type": "button",
-      "parent": 718,
+      "parent": 721,
       "x": 170,
       "y": 175,
       "w": 140,
@@ -8718,7 +8894,7 @@
     },
     {
       "type": "container",
-      "parent": 723,
+      "parent": 726,
       "x": 56,
       "y": 20,
       "w": 28,
@@ -8728,7 +8904,7 @@
     },
     {
       "type": "container",
-      "parent": 723,
+      "parent": 726,
       "x": 42,
       "y": 60,
       "w": 7,
@@ -8738,7 +8914,7 @@
     },
     {
       "type": "container",
-      "parent": 723,
+      "parent": 726,
       "x": 91,
       "y": 60,
       "w": 7,
@@ -8748,7 +8924,7 @@
     },
     {
       "type": "container",
-      "parent": 723,
+      "parent": 726,
       "x": 45,
       "y": 93,
       "w": 50,
@@ -8758,7 +8934,7 @@
     },
     {
       "type": "container",
-      "parent": 723,
+      "parent": 726,
       "x": 67,
       "y": 99,
       "w": 7,
@@ -8768,7 +8944,7 @@
     },
     {
       "type": "container",
-      "parent": 723,
+      "parent": 726,
       "x": 54,
       "y": 118,
       "w": 32,
@@ -8778,7 +8954,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 176,
       "y": 345,
       "w": 7,
@@ -8792,7 +8968,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 191,
       "y": 342,
       "w": 7,
@@ -8806,7 +8982,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 206,
       "y": 338,
       "w": 7,
@@ -8820,7 +8996,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 221,
       "y": 335,
       "w": 7,
@@ -8834,7 +9010,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 236,
       "y": 331,
       "w": 7,
@@ -8848,7 +9024,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 251,
       "y": 335,
       "w": 7,
@@ -8862,7 +9038,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 266,
       "y": 338,
       "w": 7,
@@ -8876,7 +9052,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 281,
       "y": 342,
       "w": 7,
@@ -8890,7 +9066,7 @@
     },
     {
       "type": "container",
-      "parent": 718,
+      "parent": 721,
       "x": 296,
       "y": 345,
       "w": 7,
@@ -8904,7 +9080,7 @@
     },
     {
       "type": "button",
-      "parent": 718,
+      "parent": 721,
       "x": 24,
       "y": 405,
       "w": 204,
@@ -8936,7 +9112,7 @@
     },
     {
       "type": "label",
-      "parent": 739,
+      "parent": 742,
       "x": 0,
       "y": 0,
       "w": 204,
@@ -8944,11 +9120,14 @@
       "text": "删除",
       "font_size": 22,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_46",
+      "bind": "i18n_46",
+      "font_charset": "删除Delete"
     },
     {
       "type": "button",
-      "parent": 718,
+      "parent": 721,
       "x": 252,
       "y": 405,
       "w": 204,
@@ -8961,7 +9140,7 @@
     },
     {
       "type": "label",
-      "parent": 741,
+      "parent": 744,
       "x": 0,
       "y": 0,
       "w": 204,
@@ -8969,7 +9148,10 @@
       "text": "发送",
       "font_size": 20,
       "fg_color": "#FFFFFF",
-      "text_align": "center"
+      "text_align": "center",
+      "name": "i18n_47",
+      "bind": "i18n_47",
+      "font_charset": "发送Send"
     }
   ]
 }
