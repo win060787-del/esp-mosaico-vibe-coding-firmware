@@ -1,3 +1,5 @@
+[產品官網 / Product website](https://novatechai.xyz/mosaico/) · [繁體中文](https://novatechai.xyz/zh-hant/mosaico/)
+
 # ESP-Mosaico Vibe coding固件
 
 **ESP-Mosaico Vibe coding固件** is an open-source Codex desk pet for the ESP-Iris Mosaico (ESP32-S31). It shows live Codex quota, reset countdown, running tasks and recent activity on an animated, code-rendered face. Tap the face to dictate into Codex on a Mac. Data synchronizes over Wi-Fi; USB is only needed for initial provisioning or maintenance.
